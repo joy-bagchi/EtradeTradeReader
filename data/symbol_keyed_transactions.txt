@@ -1,0 +1,1785 @@
+C:\Users\jayba\anaconda3\envs\scientificProject\python.exe C:\workspace\EtradeTradeReader\main.py 
+C:\workspace\EtradeTradeReader\main.py:25: ParserWarning: Both a converter and dtype were specified for column TransactionType - only the converter will be used.
+  df = pd.read_csv(file_path,
+['TransactionDate', 'TransactionType', 'SecurityType', 'Symbol', 'Quantity', 'Amount', 'Price', 'Commission', 'Description']
+  TransactionDate  TransactionType  ... Commission               Description
+2      2024-08-23  Bought To Cover  ...       3.07  SPY Aug 26 '24 $562 Call
+3      2024-08-23       Sold Short  ...       3.08  SPY Aug 27 '24 $567 Call
+4      2024-08-22  Bought To Cover  ...       3.07  SPY Aug 26 '24 $568 Call
+5      2024-08-22       Sold Short  ...       3.10  SPY Aug 26 '24 $562 Call
+6      2024-08-21       Sold Short  ...       3.09  SPY Aug 26 '24 $568 Call
+
+[5 rows x 9 columns]
+324
+SPY Aug 26 '24 $562 Call
+  TransactionDate  TransactionType  Quantity  Price
+5      2024-08-22       Sold Short      -6.0   1.41
+2      2024-08-23  Bought To Cover       6.0   1.41
+-----------------
+SPY Aug 27 '24 $567 Call
+  TransactionDate TransactionType  Quantity  Price
+3      2024-08-23      Sold Short      -6.0   0.27
+-----------------
+SPY Aug 26 '24 $568 Call
+  TransactionDate  TransactionType  Quantity  Price
+6      2024-08-21       Sold Short      -6.0   0.98
+4      2024-08-22  Bought To Cover       6.0   0.23
+-----------------
+SPY Aug 23 '24 $564 Call
+  TransactionDate  TransactionType  Quantity  Price
+8      2024-08-19       Sold Short      -6.0   0.70
+7      2024-08-21  Bought To Cover       6.0   2.08
+-----------------
+SPY Aug 23 '24 $547 Call
+   TransactionDate  TransactionType  Quantity  Price
+47      2024-08-01       Sold Short      -6.0   7.26
+46      2024-08-02  Bought To Cover       6.0   3.98
+10      2024-08-13       Sold Short      -6.0   2.39
+9       2024-08-13  Bought To Cover       6.0   3.43
+-----------------
+SPY Aug 23 '24 $540 Call
+   TransactionDate  TransactionType  Quantity  Price
+13      2024-08-12       Sold Short      -6.0   4.20
+11      2024-08-13  Bought To Cover       6.0   5.68
+-----------------
+SPY Aug 19 '24 $538 Call
+   TransactionDate  TransactionType  Quantity  Price
+18      2024-08-08       Sold Short      -1.0   3.61
+19      2024-08-08       Sold Short      -4.0   3.60
+21      2024-08-08       Sold Short      -1.0   3.60
+14      2024-08-12  Bought To Cover       6.0   3.57
+-----------------
+SPY Aug 20 '24 $535 Call
+   TransactionDate  TransactionType  Quantity  Price
+23      2024-08-08       Sold Short      -6.0   4.64
+16      2024-08-08  Bought To Cover       1.0   5.31
+17      2024-08-08  Bought To Cover       4.0   5.31
+20      2024-08-08  Bought To Cover       1.0   5.32
+-----------------
+SPY Aug 19 '24 $525 Call
+   TransactionDate  TransactionType  Quantity  Price
+26      2024-08-07       Sold Short      -1.0   7.12
+27      2024-08-07       Sold Short      -5.0   7.11
+22      2024-08-08  Bought To Cover       6.0   9.79
+-----------------
+SPY Aug 19 '24 $540 Call
+   TransactionDate  TransactionType  Quantity  Price
+29      2024-08-07       Sold Short      -6.0   2.97
+24      2024-08-07  Bought To Cover       5.0   1.59
+25      2024-08-07  Bought To Cover       1.0   1.60
+-----------------
+SPY Aug 19 '24 $529 Call
+   TransactionDate  TransactionType  Quantity  Price
+30      2024-08-06       Sold Short      -6.0   5.84
+28      2024-08-07  Bought To Cover       6.0   8.47
+-----------------
+SPY Aug 16 '24 $532 Call
+   TransactionDate  TransactionType  Quantity  Price
+32      2024-08-06       Sold Short      -6.0   5.51
+31      2024-08-06  Bought To Cover       6.0   4.14
+-----------------
+SPY Aug 16 '24 $528 Call
+   TransactionDate  TransactionType  Quantity  Price
+35      2024-08-06       Sold Short      -6.0   6.90
+33      2024-08-06  Bought To Cover       6.0   7.66
+-----------------
+SPY Aug 16 '24 $520 Call
+   TransactionDate  TransactionType  Quantity  Price
+37      2024-08-05       Sold Short      -6.0  10.39
+42      2024-08-05       Sold Short      -1.0  10.05
+43      2024-08-05       Sold Short      -5.0   9.98
+40      2024-08-05  Bought To Cover       6.0  12.00
+34      2024-08-06  Bought To Cover       6.0  11.76
+-----------------
+SPY Aug 19 '24 $527 Call
+   TransactionDate  TransactionType  Quantity  Price
+39      2024-08-05       Sold Short      -6.0   7.90
+38      2024-08-05  Bought To Cover       6.0   7.29
+-----------------
+SPY Aug 16 '24 $534 Call
+   TransactionDate  TransactionType  Quantity  Price
+45      2024-08-02       Sold Short      -6.0   8.13
+41      2024-08-05  Bought To Cover       1.0   2.99
+44      2024-08-05  Bought To Cover       5.0   3.08
+-----------------
+SPY Aug 23 '24 $562 Call
+   TransactionDate  TransactionType  Quantity  Price
+50      2024-07-31       Sold Short      -1.0   4.15
+53      2024-07-31       Sold Short      -5.0   4.15
+48      2024-08-01  Bought To Cover       6.0   1.92
+-----------------
+SPY Aug 16 '24 $559 Call
+   TransactionDate  TransactionType  Quantity  Price
+54      2024-07-31       Sold Short      -6.0   2.88
+51      2024-07-31  Bought To Cover       5.0   4.22
+52      2024-07-31  Bought To Cover       1.0   4.22
+-----------------
+SPY Aug 16 '24 $556 Call
+   TransactionDate  TransactionType  Quantity  Price
+57      2024-07-31       Sold Short      -6.0   4.45
+55      2024-07-31  Bought To Cover       6.0   3.96
+-----------------
+SPY Aug 12 '24 $549 Call
+   TransactionDate  TransactionType  Quantity  Price
+58      2024-07-30       Sold Short      -6.0   3.56
+56      2024-07-31  Bought To Cover       6.0   6.60
+-----------------
+SPY Aug 12 '24 $553 Call
+   TransactionDate  TransactionType  Quantity  Price
+61      2024-07-29       Sold Short      -6.0   3.62
+59      2024-07-30  Bought To Cover       6.0   2.23
+-----------------
+SPY Aug 09 '24 $549 Call
+   TransactionDate  TransactionType  Quantity  Price
+63      2024-07-26       Sold Short      -6.0   4.85
+62      2024-07-29  Bought To Cover       6.0   5.16
+-----------------
+SPY Aug 09 '24 $547 Call
+   TransactionDate  TransactionType  Quantity  Price
+66      2024-07-26       Sold Short      -6.0   5.22
+64      2024-07-26  Bought To Cover       6.0   5.84
+-----------------
+SPY Aug 02 '24 $548 Call
+   TransactionDate  TransactionType  Quantity  Price
+67      2024-07-24       Sold Short      -6.0   4.76
+65      2024-07-26  Bought To Cover       6.0   3.30
+-----------------
+SPY Aug 02 '24 $563 Call
+   TransactionDate  TransactionType  Quantity  Price
+69      2024-07-22       Sold Short      -6.0   2.17
+68      2024-07-24  Bought To Cover       6.0   0.51
+-----------------
+SPY Aug 02 '24 $560 Call
+   TransactionDate  TransactionType  Quantity  Price
+71      2024-07-22       Sold Short      -6.0   2.70
+70      2024-07-22  Bought To Cover       6.0   3.27
+-----------------
+SPY Aug 02 '24 $555 Call
+   TransactionDate  TransactionType  Quantity  Price
+73      2024-07-19       Sold Short      -6.0   3.45
+72      2024-07-22  Bought To Cover       6.0   4.91
+-----------------
+SPY Aug 02 '24 $553 Call
+   TransactionDate  TransactionType  Quantity  Price
+75      2024-07-19       Sold Short      -6.0   5.20
+74      2024-07-19  Bought To Cover       6.0   4.34
+-----------------
+SPY Jul 26 '24 $557 Call
+   TransactionDate  TransactionType  Quantity  Price
+78      2024-07-18       Sold Short      -6.0   2.50
+76      2024-07-19  Bought To Cover       6.0   1.47
+-----------------
+SPY Jul 26 '24 $555 Call
+   TransactionDate  TransactionType  Quantity  Price
+80      2024-07-18       Sold Short      -6.0   3.08
+77      2024-07-18  Bought To Cover       6.0   3.40
+-----------------
+SPY Jul 26 '24 $558 Call
+   TransactionDate  TransactionType  Quantity  Price
+82      2024-07-18       Sold Short      -2.0   2.71
+84      2024-07-18       Sold Short      -4.0   2.71
+79      2024-07-18  Bought To Cover       6.0   1.92
+-----------------
+SPY Jul 26 '24 $564 Call
+   TransactionDate  TransactionType  Quantity  Price
+98      2024-07-17       Sold Short      -6.0   2.36
+92      2024-07-17  Bought To Cover       1.0   1.82
+93      2024-07-17  Bought To Cover       4.0   1.82
+96      2024-07-17  Bought To Cover       1.0   1.83
+85      2024-07-18       Sold Short      -1.0   2.00
+89      2024-07-18       Sold Short      -1.0   2.00
+90      2024-07-18       Sold Short      -4.0   2.00
+81      2024-07-18  Bought To Cover       4.0   0.95
+83      2024-07-18  Bought To Cover       2.0   0.95
+-----------------
+SPY Jul 26 '24 $562 Call
+   TransactionDate  TransactionType  Quantity  Price
+91      2024-07-17       Sold Short      -4.0   2.50
+94      2024-07-17       Sold Short      -1.0   2.50
+95      2024-07-17       Sold Short      -1.0   2.51
+86      2024-07-18  Bought To Cover       1.0   2.80
+87      2024-07-18  Bought To Cover       1.0   2.80
+88      2024-07-18  Bought To Cover       4.0   2.80
+-----------------
+SPY Jul 26 '24 $570 Call
+    TransactionDate  TransactionType  Quantity  Price
+112      2024-07-15       Sold Short      -1.0   2.17
+113      2024-07-15       Sold Short      -5.0   2.17
+110      2024-07-15  Bought To Cover       6.0   1.57
+101      2024-07-16       Sold Short      -6.0   1.84
+97       2024-07-17  Bought To Cover       6.0   0.78
+-----------------
+SPY Sep 19 '25 $515 Call
+    TransactionDate TransactionType  Quantity  Price
+140      2024-07-05  Bought To Open       5.0  80.30
+127      2024-07-10  Bought To Open       1.0  83.26
+99       2024-07-16   Sold To Close      -6.0  87.83
+-----------------
+SPY Jul 26 '24 $568 Call
+    TransactionDate  TransactionType  Quantity  Price
+106      2024-07-16       Sold Short      -1.0   2.19
+107      2024-07-16       Sold Short      -1.0   2.18
+108      2024-07-16       Sold Short      -4.0   2.19
+100      2024-07-16  Bought To Cover       6.0   2.57
+-----------------
+SPY Sep 19 '25 $530 Call
+    TransactionDate TransactionType  Quantity  Price
+102      2024-07-16  Bought To Open       6.0  77.33
+-----------------
+SPY Jul 26 '24 $566 Call
+    TransactionDate  TransactionType  Quantity  Price
+109      2024-07-15       Sold Short      -6.0   2.93
+103      2024-07-16  Bought To Cover       1.0   3.01
+104      2024-07-16  Bought To Cover       4.0   3.01
+105      2024-07-16  Bought To Cover       1.0   3.00
+-----------------
+SPY Jul 19 '24 $564 Call
+    TransactionDate  TransactionType  Quantity  Price
+122      2024-07-11       Sold Short      -6.0   1.77
+119      2024-07-11  Bought To Cover       6.0   1.10
+116      2024-07-12       Sold Short      -6.0   1.35
+111      2024-07-15  Bought To Cover       1.0   3.32
+114      2024-07-15  Bought To Cover       5.0   3.32
+-----------------
+SPY Jul 19 '24 $560 Call
+    TransactionDate  TransactionType  Quantity  Price
+138      2024-07-05       Sold Short      -5.0   1.67
+131      2024-07-09       Sold Short      -5.0   2.05
+133      2024-07-09  Bought To Cover       5.0   2.42
+130      2024-07-10  Bought To Cover       5.0   2.47
+117      2024-07-11       Sold Short      -6.0   2.20
+115      2024-07-12  Bought To Cover       6.0   3.06
+-----------------
+SPY Jul 22 '24 $559 Call
+    TransactionDate  TransactionType  Quantity  Price
+120      2024-07-11       Sold Short      -6.0   3.16
+118      2024-07-11  Bought To Cover       6.0   2.94
+-----------------
+SPY Jul 19 '24 $567 Call
+    TransactionDate  TransactionType  Quantity  Price
+124      2024-07-10       Sold Short      -6.0   1.51
+121      2024-07-11  Bought To Cover       6.0   0.94
+-----------------
+SPY Jul 19 '24 $565 Call
+    TransactionDate  TransactionType  Quantity  Price
+125      2024-07-10       Sold Short      -6.0   1.45
+123      2024-07-10  Bought To Cover       6.0   2.24
+-----------------
+SPY Jul 19 '24 $562 Call
+    TransactionDate  TransactionType  Quantity  Price
+134      2024-07-09       Sold Short      -5.0   1.67
+132      2024-07-09  Bought To Cover       5.0   1.40
+128      2024-07-10       Sold Short      -1.0   1.76
+129      2024-07-10       Sold Short      -5.0   1.67
+126      2024-07-10  Bought To Cover       6.0   2.54
+-----------------
+SPY Jun 20 '25 $500 Call
+    TransactionDate TransactionType  Quantity  Price
+180      2024-06-12  Bought To Open       5.0  77.27
+135      2024-07-05   Sold To Close      -5.0  85.05
+-----------------
+SPY Jul 19 '24 $557 Call
+    TransactionDate  TransactionType  Quantity  Price
+136      2024-07-05       Sold Short      -5.0   2.80
+137      2024-07-05  Bought To Cover       5.0   2.77
+-----------------
+SPY Jul 15 '24 $555 Call
+    TransactionDate  TransactionType  Quantity  Price
+141      2024-07-05       Sold Short      -5.0   2.08
+139      2024-07-05  Bought To Cover       5.0   2.72
+-----------------
+SPY Jul 12 '24 $552.50 Call
+    TransactionDate  TransactionType  Quantity  Price
+144      2024-07-02       Sold Short      -5.0   1.72
+142      2024-07-05  Bought To Cover       5.0   2.97
+-----------------
+SPY Jul 12 '24 $548 Call
+    TransactionDate  TransactionType  Quantity  Price
+145      2024-07-01       Sold Short      -5.0   2.91
+143      2024-07-02  Bought To Cover       5.0   3.84
+-----------------
+SPY Jul 12 '24 $547 Call
+    TransactionDate  TransactionType  Quantity  Price
+146      2024-07-01       Sold Short      -5.0   3.38
+148      2024-07-01  Bought To Cover       5.0   3.38
+-----------------
+SPY Jul 12 '24 $550 Call
+    TransactionDate  TransactionType  Quantity  Price
+150      2024-06-28       Sold Short      -5.0   3.09
+147      2024-07-01  Bought To Cover       5.0   2.13
+-----------------
+SPY Jul 08 '24 $555 Call
+    TransactionDate  TransactionType  Quantity  Price
+152      2024-06-28       Sold Short      -5.0   1.17
+151      2024-06-28  Bought To Cover       5.0   0.49
+-----------------
+SPY Jul 05 '24 $550 Call
+    TransactionDate  TransactionType  Quantity  Price
+162      2024-06-20       Sold Short      -4.0   3.09
+164      2024-06-20       Sold Short      -1.0   2.89
+161      2024-06-21  Bought To Cover       5.0   2.55
+158      2024-06-24       Sold Short      -5.0   2.56
+156      2024-06-25  Bought To Cover       5.0   1.68
+154      2024-06-27       Sold Short      -5.0   1.72
+153      2024-06-28  Bought To Cover       5.0   2.92
+-----------------
+SPY Jul 08 '24 $547 Call
+    TransactionDate  TransactionType  Quantity  Price
+157      2024-06-25       Sold Short      -5.0   3.11
+155      2024-06-27  Bought To Cover       5.0   3.40
+-----------------
+SPY Jul 05 '24 $548 Call
+    TransactionDate  TransactionType  Quantity  Price
+160      2024-06-21       Sold Short      -5.0   3.40
+159      2024-06-24  Bought To Cover       5.0   3.49
+-----------------
+SPY Jul 05 '24 $553 Call
+    TransactionDate  TransactionType  Quantity  Price
+166      2024-06-18       Sold Short      -5.0   2.36
+163      2024-06-20  Bought To Cover       4.0   1.84
+165      2024-06-20  Bought To Cover       1.0   1.85
+-----------------
+SPY Jul 05 '24 $555 Call
+    TransactionDate  TransactionType  Quantity  Price
+167      2024-06-18       Sold Short      -5.0   1.67
+168      2024-06-18  Bought To Cover       5.0   1.72
+-----------------
+SPY Jun 28 '24 $552 Call
+    TransactionDate  TransactionType  Quantity  Price
+170      2024-06-17       Sold Short      -5.0   1.70
+169      2024-06-18  Bought To Cover       5.0   1.48
+-----------------
+SPY Jun 21 '24 $545 Call
+    TransactionDate  TransactionType  Quantity  Price
+172      2024-06-14       Sold Short      -5.0   1.17
+171      2024-06-17  Bought To Cover       5.0   3.99
+-----------------
+SPY Jun 21 '24 $544 Call
+    TransactionDate  TransactionType  Quantity  Price
+175      2024-06-14       Sold Short      -5.0   1.19
+173      2024-06-14  Bought To Cover       5.0   1.57
+-----------------
+SPY Jun 20 '24 $546 Call
+    TransactionDate  TransactionType  Quantity  Price
+177      2024-06-13       Sold Short      -5.0   1.32
+174      2024-06-14  Bought To Cover       5.0   0.57
+-----------------
+SPY Jun 21 '24 $550 Call
+    TransactionDate  TransactionType  Quantity  Price
+181      2024-06-12       Sold Short      -5.0   1.23
+176      2024-06-13  Bought To Cover       5.0   0.48
+-----------------
+SPY Jun 20 '25 $485 Call
+    TransactionDate TransactionType  Quantity  Price
+243      2024-05-16  Bought To Open       7.0  79.17
+204      2024-06-03   Sold To Close      -2.0  76.00
+178      2024-06-12   Sold To Close      -5.0  89.07
+-----------------
+SPY Jun 21 '24 $548 Call
+    TransactionDate  TransactionType  Quantity  Price
+182      2024-06-12       Sold Short      -5.0   1.85
+179      2024-06-12  Bought To Cover       5.0   1.88
+-----------------
+SPY Jun 21 '24 $540 Call
+    TransactionDate  TransactionType  Quantity  Price
+184      2024-06-10       Sold Short      -5.0   2.38
+183      2024-06-12  Bought To Cover       5.0   6.32
+-----------------
+SPY Jun 21 '24 $536 Call
+    TransactionDate  TransactionType  Quantity  Price
+186      2024-06-10       Sold Short      -4.0   3.10
+187      2024-06-10       Sold Short      -1.0   3.11
+185      2024-06-10  Bought To Cover       5.0   4.30
+-----------------
+SPY Jun 14 '24 $540 Call
+    TransactionDate  TransactionType  Quantity  Price
+195      2024-06-06       Sold Short      -5.0   2.28
+193      2024-06-06  Bought To Cover       5.0   1.93
+190      2024-06-07       Sold Short      -5.0   2.29
+188      2024-06-10  Bought To Cover       4.0   1.06
+189      2024-06-10  Bought To Cover       1.0   1.06
+-----------------
+SPY Jun 14 '24 $537 Call
+    TransactionDate  TransactionType  Quantity  Price
+196      2024-06-05       Sold Short      -5.0   2.80
+192      2024-06-06       Sold Short      -5.0   3.10
+194      2024-06-06  Bought To Cover       5.0   3.61
+191      2024-06-07  Bought To Cover       5.0   3.68
+-----------------
+SPY Jun 14 '24 $530 Call
+    TransactionDate  TransactionType  Quantity  Price
+206      2024-06-03       Sold Short      -7.0   4.30
+203      2024-06-03  Bought To Cover       5.0   2.80
+205      2024-06-03  Bought To Cover       2.0   4.41
+198      2024-06-04       Sold Short      -5.0   4.03
+197      2024-06-05  Bought To Cover       5.0   6.64
+-----------------
+SPY Jun 17 '24 $527 Call
+    TransactionDate  TransactionType  Quantity  Price
+202      2024-06-03       Sold Short      -5.0   4.32
+199      2024-06-04  Bought To Cover       5.0   5.92
+-----------------
+SPY Jun 10 '24 $521 Call
+    TransactionDate  TransactionType  Quantity  Price
+210      2024-05-31       Sold Short      -7.0   3.75
+207      2024-06-03  Bought To Cover       7.0   8.70
+-----------------
+SPY Jun 07 '24 $525 Call
+    TransactionDate  TransactionType  Quantity  Price
+213      2024-05-30       Sold Short      -7.0   3.42
+211      2024-05-31  Bought To Cover       7.0   1.65
+-----------------
+SPY Jun 07 '24 $529 Call
+    TransactionDate  TransactionType  Quantity  Price
+215      2024-05-29       Sold Short      -7.0   3.14
+212      2024-05-30  Bought To Cover       7.0   1.66
+-----------------
+SPY Jun 07 '24 $528 Call
+    TransactionDate  TransactionType  Quantity  Price
+217      2024-05-29       Sold Short      -7.0   3.37
+214      2024-05-29  Bought To Cover       7.0   3.68
+-----------------
+SPY May 31 '24 $532 Call
+    TransactionDate  TransactionType  Quantity  Price
+228      2024-05-22       Sold Short      -7.0   2.49
+227      2024-05-23  Bought To Cover       7.0   3.05
+219      2024-05-24       Sold Short      -7.0   1.39
+216      2024-05-29  Bought To Cover       7.0   0.33
+-----------------
+SPY May 31 '24 $531 Call
+    TransactionDate  TransactionType  Quantity  Price
+221      2024-05-24       Sold Short      -7.0   1.46
+218      2024-05-24  Bought To Cover       7.0   1.85
+-----------------
+SPY May 31 '24 $534 Call
+    TransactionDate  TransactionType  Quantity  Price
+235      2024-05-21       Sold Short      -7.0   1.86
+232      2024-05-21  Bought To Cover       7.0   2.35
+231      2024-05-22       Sold Short      -7.0   2.21
+229      2024-05-22  Bought To Cover       7.0   1.73
+223      2024-05-23       Sold Short      -7.0   1.56
+220      2024-05-24  Bought To Cover       7.0   0.58
+-----------------
+SPY May 31 '24 $536 Call
+    TransactionDate  TransactionType  Quantity  Price
+237      2024-05-20       Sold Short      -7.0   1.82
+233      2024-05-21       Sold Short      -7.0   1.56
+234      2024-05-21  Bought To Cover       7.0   1.24
+230      2024-05-22  Bought To Cover       7.0   1.48
+224      2024-05-23       Sold Short      -7.0   1.31
+222      2024-05-23  Bought To Cover       7.0   0.95
+-----------------
+SPY May 31 '24 $538 Call
+    TransactionDate  TransactionType  Quantity  Price
+226      2024-05-23       Sold Short      -7.0   0.75
+225      2024-05-23  Bought To Cover       7.0   0.77
+-----------------
+SPY May 24 '24 $533 Call
+    TransactionDate  TransactionType  Quantity  Price
+244      2024-05-15       Sold Short      -7.0   1.78
+240      2024-05-16  Bought To Cover       7.0   2.40
+239      2024-05-17       Sold Short      -7.0   1.31
+236      2024-05-20  Bought To Cover       7.0   2.02
+-----------------
+SPY May 24 '24 $535 Call
+    TransactionDate  TransactionType  Quantity  Price
+241      2024-05-16       Sold Short      -7.0   1.62
+238      2024-05-17  Bought To Cover       7.0   0.78
+-----------------
+SPY Mar 21 '25 $475 Call
+    TransactionDate TransactionType  Quantity  Price
+371      2024-03-21  Bought To Open       7.0  80.51
+242      2024-05-16   Sold To Close      -7.0  80.17
+-----------------
+SPY May 28 '24 $530 Call
+    TransactionDate  TransactionType  Quantity  Price
+247      2024-05-15       Sold Short      -7.0   2.36
+245      2024-05-15  Bought To Cover       7.0   3.24
+-----------------
+SPY May 24 '24 $528 Call
+    TransactionDate  TransactionType  Quantity  Price
+249      2024-05-14       Sold Short      -1.0   2.65
+246      2024-05-15  Bought To Cover       1.0   2.97
+-----------------
+SPY May 28 '24 $525 Call
+    TransactionDate  TransactionType  Quantity  Price
+251      2024-05-14       Sold Short      -7.0   3.76
+248      2024-05-14  Bought To Cover       2.0   4.34
+250      2024-05-14  Bought To Cover       5.0   4.35
+-----------------
+SPY May 24 '24 $524 Call
+    TransactionDate  TransactionType  Quantity  Price
+254      2024-05-13       Sold Short      -7.0   3.45
+252      2024-05-14  Bought To Cover       7.0   4.01
+-----------------
+SPY May 17 '24 $523 Call
+    TransactionDate  TransactionType  Quantity  Price
+266      2024-05-07       Sold Short      -7.0   2.28
+263      2024-05-07  Bought To Cover       7.0   2.42
+255      2024-05-10       Sold Short      -7.0   2.34
+253      2024-05-13  Bought To Cover       7.0   2.38
+-----------------
+SPY May 17 '24 $524 Call
+    TransactionDate  TransactionType  Quantity  Price
+264      2024-05-07       Sold Short      -7.0   2.06
+261      2024-05-08  Bought To Cover       7.0   1.22
+258      2024-05-10       Sold Short      -7.0   1.82
+256      2024-05-10  Bought To Cover       7.0   1.94
+-----------------
+SPY May 17 '24 $525 Call
+    TransactionDate  TransactionType  Quantity  Price
+260      2024-05-09       Sold Short      -7.0   1.60
+257      2024-05-10  Bought To Cover       7.0   1.48
+-----------------
+SPY May 17 '24 $520 Call
+    TransactionDate  TransactionType  Quantity  Price
+270      2024-05-06       Sold Short      -7.0   2.42
+265      2024-05-07  Bought To Cover       7.0   3.54
+262      2024-05-08       Sold Short      -7.0   2.48
+259      2024-05-09  Bought To Cover       7.0   3.80
+-----------------
+SPY May 17 '24 $518 Call
+    TransactionDate  TransactionType  Quantity  Price
+268      2024-05-06       Sold Short      -7.0   3.24
+269      2024-05-06  Bought To Cover       7.0   3.22
+-----------------
+SPY May 14 '24 $514 Call
+    TransactionDate  TransactionType  Quantity  Price
+273      2024-05-03       Sold Short      -7.0   2.77
+271      2024-05-06  Bought To Cover       7.0   3.89
+-----------------
+SPY May 10 '24 $512 Call
+    TransactionDate  TransactionType  Quantity  Price
+274      2024-05-02       Sold Short      -7.0   1.77
+272      2024-05-03  Bought To Cover       7.0   2.97
+-----------------
+SPY May 10 '24 $514 Call
+    TransactionDate  TransactionType  Quantity  Price
+277      2024-05-02       Sold Short      -7.0   1.23
+275      2024-05-02  Bought To Cover       7.0   1.23
+-----------------
+SPY May 10 '24 $505 Call
+    TransactionDate  TransactionType  Quantity  Price
+279      2024-05-01       Sold Short      -7.0   3.39
+276      2024-05-02  Bought To Cover       7.0   4.82
+-----------------
+SPY May 10 '24 $502 Call
+    TransactionDate  TransactionType  Quantity  Price
+280      2024-05-01       Sold Short      -2.0   4.75
+282      2024-05-01       Sold Short      -5.0   4.74
+278      2024-05-01  Bought To Cover       7.0   4.77
+-----------------
+SPY May 10 '24 $513 Call
+    TransactionDate  TransactionType  Quantity  Price
+287      2024-04-30       Sold Short      -7.0   2.93
+281      2024-05-01  Bought To Cover       5.0   1.07
+283      2024-05-01  Bought To Cover       2.0   1.07
+-----------------
+SPY May 10 '24 $512.50 Call
+    TransactionDate  TransactionType  Quantity  Price
+285      2024-04-30       Sold Short      -7.0   3.31
+286      2024-04-30  Bought To Cover       7.0   3.15
+-----------------
+SPY May 03 '24 $515 Call
+    TransactionDate  TransactionType  Quantity  Price
+293      2024-04-26       Sold Short      -7.0   1.99
+288      2024-04-30  Bought To Cover       7.0   1.15
+-----------------
+SPY May 03 '24 $510 Call
+    TransactionDate  TransactionType  Quantity  Price
+295      2024-04-26       Sold Short      -7.0   2.90
+289      2024-04-26  Bought To Cover       6.0   4.26
+292      2024-04-26  Bought To Cover       1.0   4.25
+-----------------
+SPY May 03 '24 $512 Call
+    TransactionDate  TransactionType  Quantity  Price
+300      2024-04-23       Sold Short      -7.0   2.44
+298      2024-04-25  Bought To Cover       7.0   1.31
+291      2024-04-26       Sold Short      -6.0   3.23
+294      2024-04-26       Sold Short      -1.0   3.22
+290      2024-04-26  Bought To Cover       7.0   3.22
+-----------------
+SPY May 03 '24 $508 Call
+    TransactionDate  TransactionType  Quantity  Price
+297      2024-04-25       Sold Short      -7.0   2.44
+296      2024-04-26  Bought To Cover       7.0   3.84
+-----------------
+SPY May 03 '24 $506 Call
+    TransactionDate  TransactionType  Quantity  Price
+302      2024-04-22       Sold Short      -7.0   2.73
+299      2024-04-23  Bought To Cover       7.0   5.03
+-----------------
+SPY Apr 26 '24 $502 Call
+    TransactionDate  TransactionType  Quantity  Price
+305      2024-04-19       Sold Short      -7.0   2.76
+303      2024-04-22  Bought To Cover       7.0   2.21
+-----------------
+SPY Apr 26 '24 $508 Call
+    TransactionDate  TransactionType  Quantity  Price
+307      2024-04-17       Sold Short      -7.0   2.41
+304      2024-04-19  Bought To Cover       7.0   1.01
+-----------------
+SPY Apr 26 '24 $510 Call
+    TransactionDate  TransactionType  Quantity  Price
+310      2024-04-16       Sold Short      -5.0   3.68
+311      2024-04-16       Sold Short      -1.0   3.68
+313      2024-04-16       Sold Short      -1.0   3.68
+306      2024-04-17  Bought To Cover       7.0   1.81
+-----------------
+SPY Apr 19 '24 $508 Call
+    TransactionDate  TransactionType  Quantity  Price
+315      2024-04-15       Sold Short      -7.0   2.95
+308      2024-04-16  Bought To Cover       5.0   2.44
+309      2024-04-16  Bought To Cover       1.0   2.44
+312      2024-04-16  Bought To Cover       1.0   2.44
+-----------------
+SPY Apr 19 '24 $516 Call
+    TransactionDate  TransactionType  Quantity  Price
+324      2024-04-12       Sold Short      -7.0   2.60
+317      2024-04-15       Sold Short      -7.0   2.45
+314      2024-04-15  Bought To Cover       7.0   0.65
+318      2024-04-15  Bought To Cover       2.0   2.90
+321      2024-04-15  Bought To Cover       1.0   2.90
+323      2024-04-15  Bought To Cover       4.0   2.89
+-----------------
+SPY Apr 19 '24 $520 Call
+    TransactionDate  TransactionType  Quantity  Price
+335      2024-04-09       Sold Short      -7.0   3.42
+332      2024-04-09  Bought To Cover       7.0   3.82
+328      2024-04-10       Sold Short      -7.0   2.50
+327      2024-04-11  Bought To Cover       7.0   3.14
+319      2024-04-15       Sold Short      -4.0   1.26
+320      2024-04-15       Sold Short      -1.0   1.27
+322      2024-04-15       Sold Short      -2.0   1.27
+316      2024-04-15  Bought To Cover       7.0   1.05
+-----------------
+SPY Apr 19 '24 $522 Call
+    TransactionDate  TransactionType  Quantity  Price
+333      2024-04-09       Sold Short      -7.0   2.90
+330      2024-04-09  Bought To Cover       7.0   4.02
+326      2024-04-11       Sold Short      -7.0   2.25
+325      2024-04-12  Bought To Cover       7.0   0.89
+-----------------
+SPY Apr 19 '24 $525 Call
+    TransactionDate  TransactionType  Quantity  Price
+331      2024-04-09       Sold Short      -7.0   2.61
+329      2024-04-10  Bought To Cover       7.0   0.99
+-----------------
+SPY Apr 12 '24 $525 Call
+    TransactionDate  TransactionType  Quantity  Price
+353      2024-04-03       Sold Short      -6.0   2.44
+356      2024-04-03       Sold Short      -1.0   2.44
+351      2024-04-04  Bought To Cover       7.0   1.44
+336      2024-04-05       Sold Short      -7.0   1.70
+334      2024-04-09  Bought To Cover       7.0   0.58
+-----------------
+SPY Apr 12 '24 $522 Call
+    TransactionDate  TransactionType  Quantity  Price
+338      2024-04-05       Sold Short      -5.0   2.18
+340      2024-04-05       Sold Short      -1.0   2.18
+343      2024-04-05       Sold Short      -1.0   2.18
+337      2024-04-05  Bought To Cover       7.0   2.87
+-----------------
+SPY Apr 12 '24 $519 Call
+    TransactionDate  TransactionType  Quantity  Price
+345      2024-04-04       Sold Short      -5.0   2.78
+346      2024-04-04       Sold Short      -1.0   2.77
+348      2024-04-04       Sold Short      -1.0   2.78
+339      2024-04-05  Bought To Cover       1.0   3.52
+341      2024-04-05  Bought To Cover       1.0   3.52
+342      2024-04-05  Bought To Cover       5.0   3.52
+-----------------
+SPY Apr 15 '24 $522 Call
+    TransactionDate  TransactionType  Quantity  Price
+352      2024-04-04       Sold Short      -7.0   2.70
+347      2024-04-04  Bought To Cover       5.0   1.99
+349      2024-04-04  Bought To Cover       1.0   1.99
+350      2024-04-04  Bought To Cover       1.0   1.98
+-----------------
+SPY Apr 12 '24 $523 Call
+    TransactionDate  TransactionType  Quantity  Price
+357      2024-04-02       Sold Short      -7.0   2.34
+354      2024-04-03  Bought To Cover       1.0   3.31
+355      2024-04-03  Bought To Cover       6.0   3.31
+-----------------
+SPY Apr 05 '24 $526 Call
+    TransactionDate  TransactionType  Quantity  Price
+367      2024-03-26       Sold Short      -7.0   1.51
+365      2024-03-27  Bought To Cover       7.0   2.11
+360      2024-04-01       Sold Short      -7.0   1.06
+358      2024-04-02  Bought To Cover       7.0   0.34
+-----------------
+SPY Apr 05 '24 $529 Call
+    TransactionDate  TransactionType  Quantity  Price
+364      2024-03-28       Sold Short      -7.0   1.00
+359      2024-04-01  Bought To Cover       7.0   0.43
+-----------------
+SPY Apr 05 '24 $530 Call
+    TransactionDate  TransactionType  Quantity  Price
+366      2024-03-27       Sold Short      -7.0   0.82
+363      2024-03-28  Bought To Cover       7.0   0.78
+-----------------
+SPY Mar 28 '24 $525 Call
+    TransactionDate  TransactionType  Quantity  Price
+375      2024-03-20       Sold Short      -1.0   1.71
+379      2024-03-20       Sold Short      -2.0   1.71
+380      2024-03-20       Sold Short      -4.0   1.71
+373      2024-03-21  Bought To Cover       7.0   2.61
+370      2024-03-22       Sold Short      -7.0   1.13
+368      2024-03-26  Bought To Cover       7.0   0.29
+-----------------
+SPY Mar 28 '24 $528 Call
+    TransactionDate  TransactionType  Quantity  Price
+374      2024-03-21       Sold Short      -7.0   1.40
+369      2024-03-22  Bought To Cover       7.0   0.46
+-----------------
+SPY Mar 21 '25 $470 Call
+    TransactionDate TransactionType  Quantity  Price
+398      2024-03-07  Bought To Open       7.0  76.09
+372      2024-03-21   Sold To Close      -7.0  84.31
+-----------------
+SPY Mar 22 '24 $520 Call
+    TransactionDate  TransactionType  Quantity  Price
+390      2024-03-12       Sold Short      -7.0   2.30
+388      2024-03-15  Bought To Cover       7.0   0.89
+381      2024-03-19       Sold Short      -7.0   1.13
+376      2024-03-20  Bought To Cover       4.0   2.48
+377      2024-03-20  Bought To Cover       2.0   2.48
+378      2024-03-20  Bought To Cover       1.0   2.48
+-----------------
+SPY Mar 22 '24 $518 Call
+    TransactionDate  TransactionType  Quantity  Price
+383      2024-03-18       Sold Short      -7.0   1.82
+382      2024-03-19  Bought To Cover       7.0   1.81
+-----------------
+SPY Mar 22 '24 $515 Call
+    TransactionDate  TransactionType  Quantity  Price
+392      2024-03-11       Sold Short      -7.0   2.73
+389      2024-03-12  Bought To Cover       7.0   4.55
+386      2024-03-15       Sold Short      -7.0   2.28
+384      2024-03-18  Bought To Cover       7.0   3.13
+-----------------
+SPY Mar 22 '24 $523 Call
+    TransactionDate  TransactionType  Quantity  Price
+387      2024-03-15       Sold Short      -7.0   0.44
+385      2024-03-15  Bought To Cover       7.0   0.58
+-----------------
+SPY Mar 18 '24 $517 Call
+    TransactionDate  TransactionType  Quantity  Price
+394      2024-03-08       Sold Short      -7.0   2.17
+391      2024-03-11  Bought To Cover       7.0   1.12
+-----------------
+SPY Mar 18 '24 $525 Call
+    TransactionDate  TransactionType  Quantity  Price
+395      2024-03-08       Sold Short      -7.0   1.25
+393      2024-03-08  Bought To Cover       7.0   0.47
+-----------------
+SPY Mar 18 '24 $520 Call
+    TransactionDate  TransactionType  Quantity  Price
+400      2024-03-07       Sold Short      -7.0   1.84
+396      2024-03-08  Bought To Cover       7.0   2.91
+-----------------
+SPY Jan 17 '25 $465 Call
+    TransactionDate TransactionType  Quantity  Price
+418      2024-02-23  Bought To Open       7.0  71.70
+397      2024-03-07   Sold To Close      -7.0  74.76
+-----------------
+SPY Mar 15 '24 $517 Call
+    TransactionDate  TransactionType  Quantity  Price
+401      2024-03-06       Sold Short      -7.0   1.54
+399      2024-03-07  Bought To Cover       7.0   2.82
+-----------------
+SPY Mar 15 '24 $515 Call
+    TransactionDate  TransactionType  Quantity  Price
+404      2024-03-05       Sold Short      -7.0   1.19
+402      2024-03-06  Bought To Cover       7.0   2.19
+-----------------
+SPY Mar 15 '24 $513 Call
+    TransactionDate  TransactionType  Quantity  Price
+406      2024-03-05       Sold Short      -7.0   2.28
+403      2024-03-05  Bought To Cover       7.0   1.69
+-----------------
+SPY Mar 15 '24 $520 Call
+    TransactionDate  TransactionType  Quantity  Price
+407      2024-03-04       Sold Short      -7.0   1.81
+405      2024-03-05  Bought To Cover       7.0   0.62
+-----------------
+SPY Mar 08 '24 $516 Call
+    TransactionDate  TransactionType  Quantity  Price
+409      2024-03-01       Sold Short      -7.0   1.72
+408      2024-03-04  Bought To Cover       7.0   1.91
+-----------------
+SPY Mar 08 '24 $512 Call
+    TransactionDate  TransactionType  Quantity  Price
+413      2024-02-29       Sold Short      -7.0   1.96
+410      2024-03-01  Bought To Cover       7.0   3.66
+-----------------
+SPY Mar 08 '24 $510 Call
+    TransactionDate  TransactionType  Quantity  Price
+414      2024-02-27       Sold Short      -7.0   2.33
+412      2024-02-29  Bought To Cover       7.0   2.82
+-----------------
+SPY Mar 01 '24 $512 Call
+    TransactionDate  TransactionType  Quantity  Price
+416      2024-02-23       Sold Short      -7.0   1.74
+415      2024-02-27  Bought To Cover       7.0   0.41
+-----------------
+SPY Mar 01 '24 $515 Call
+    TransactionDate  TransactionType  Quantity  Price
+420      2024-02-23       Sold Short      -7.0   1.43
+417      2024-02-23  Bought To Cover       7.0   0.90
+-----------------
+SPY Jan 17 '25 $460 Call
+    TransactionDate TransactionType  Quantity  Price
+424      2024-02-22  Bought To Open       1.0  71.72
+425      2024-02-22  Bought To Open       1.0  71.65
+426      2024-02-22  Bought To Open       2.0  71.73
+428      2024-02-22  Bought To Open       2.0  71.76
+434      2024-02-22  Bought To Open       1.0  71.75
+419      2024-02-23   Sold To Close      -7.0  75.71
+-----------------
+SPY Mar 01 '24 $511 Call
+    TransactionDate  TransactionType  Quantity  Price
+422      2024-02-22       Sold Short      -7.0   2.24
+421      2024-02-23  Bought To Cover       7.0   3.01
+-----------------
+SPY Mar 01 '24 $509 Call
+    TransactionDate  TransactionType  Quantity  Price
+435      2024-02-22       Sold Short      -4.0   2.16
+437      2024-02-22       Sold Short      -3.0   2.17
+423      2024-02-22  Bought To Cover       7.0   3.11
+-----------------
+SPY Jan 17 '25 $455 Call
+    TransactionDate TransactionType  Quantity  Price
+460      2024-02-07  Bought To Open       6.0  69.49
+457      2024-02-09  Bought To Open       1.0  71.00
+427      2024-02-22   Sold To Close      -2.0  75.75
+429      2024-02-22   Sold To Close      -2.0  75.78
+431      2024-02-22   Sold To Close      -1.0  75.75
+432      2024-02-22   Sold To Close      -1.0  75.72
+433      2024-02-22   Sold To Close      -1.0  75.65
+-----------------
+SPY Feb 26 '24 $500 Call
+    TransactionDate  TransactionType  Quantity  Price
+439      2024-02-21       Sold Short      -7.0   1.72
+430      2024-02-22  Bought To Cover       3.0   6.24
+436      2024-02-22  Bought To Cover       4.0   6.23
+-----------------
+SPY Feb 26 '24 $499 Call
+    TransactionDate  TransactionType  Quantity  Price
+441      2024-02-20       Sold Short      -7.0   2.18
+438      2024-02-21  Bought To Cover       7.0   2.13
+-----------------
+SPY Feb 23 '24 $501 Call
+    TransactionDate  TransactionType  Quantity  Price
+443      2024-02-16       Sold Short      -7.0   2.51
+440      2024-02-20  Bought To Cover       7.0   1.18
+-----------------
+SPY Feb 23 '24 $503 Call
+    TransactionDate  TransactionType  Quantity  Price
+449      2024-02-15       Sold Short      -7.0   2.05
+446      2024-02-15  Bought To Cover       7.0   2.90
+445      2024-02-16       Sold Short      -7.0   2.52
+442      2024-02-16  Bought To Cover       7.0   1.67
+-----------------
+SPY Feb 23 '24 $505 Call
+    TransactionDate  TransactionType  Quantity  Price
+447      2024-02-15       Sold Short      -7.0   2.02
+444      2024-02-16  Bought To Cover       7.0   1.67
+-----------------
+SPY Feb 20 '24 $500 Call
+    TransactionDate  TransactionType  Quantity  Price
+450      2024-02-14       Sold Short      -7.0   1.99
+448      2024-02-15  Bought To Cover       7.0   2.14
+-----------------
+SPY Feb 16 '24 $497 Call
+    TransactionDate  TransactionType  Quantity  Price
+452      2024-02-13       Sold Short      -1.0   0.98
+453      2024-02-13       Sold Short      -1.0   0.98
+454      2024-02-13       Sold Short      -5.0   0.98
+451      2024-02-14  Bought To Cover       7.0   3.25
+-----------------
+SPY Feb 16 '24 $507 Call
+    TransactionDate  TransactionType  Quantity  Price
+456      2024-02-09       Sold Short      -1.0   0.68
+458      2024-02-09       Sold Short      -6.0   0.68
+455      2024-02-09  Bought To Cover       7.0   1.01
+-----------------
+SPY Feb 09 '24 $502 Call
+    TransactionDate  TransactionType  Quantity  Price
+463      2024-02-07       Sold Short      -6.0   0.53
+459      2024-02-09  Bought To Cover       6.0   0.15
+-----------------
+SPY Jan 17 '25 $450 Call
+    TransactionDate TransactionType  Quantity  Price
+466      2024-02-06  Bought To Open       6.0  69.72
+461      2024-02-07   Sold To Close      -6.0  73.14
+-----------------
+SPY Feb 09 '24 $497 Call
+    TransactionDate  TransactionType  Quantity  Price
+464      2024-02-06       Sold Short      -6.0   0.72
+462      2024-02-07  Bought To Cover       6.0   2.48
+-----------------
+SPY Jan 17 '25 $435 Call
+    TransactionDate TransactionType  Quantity  Price
+478      2024-01-22  Bought To Open       3.0  74.72
+468      2024-02-05  Bought To Open       1.0  82.26
+469      2024-02-05  Bought To Open       1.0  82.26
+470      2024-02-05  Bought To Open       1.0  82.26
+465      2024-02-06   Sold To Close      -6.0  81.86
+-----------------
+SPY Feb 05 '24 $486 Call
+    TransactionDate  TransactionType  Quantity  Price
+473      2024-01-31       Sold Short      -3.0   1.80
+471      2024-02-01  Bought To Cover       3.0   3.48
+-----------------
+SPY Feb 05 '24 $490 Call
+    TransactionDate  TransactionType  Quantity  Price
+475      2024-01-31       Sold Short      -3.0   1.04
+474      2024-01-31  Bought To Cover       3.0   0.66
+-----------------
+SPY Jan 25 '24 $485 Call
+    TransactionDate  TransactionType  Quantity  Price
+480      2024-01-19       Sold Short      -3.0   1.26
+476      2024-01-24  Bought To Cover       3.0   4.16
+-----------------
+SPY Dec 20 '24 $425 Call
+    TransactionDate TransactionType  Quantity  Price
+499      2023-12-18  Bought To Open       3.0  73.98
+477      2024-01-22   Sold To Close      -3.0  81.89
+-----------------
+SPY Jan 25 '24 $478 Call
+    TransactionDate  TransactionType  Quantity  Price
+482      2024-01-18       Sold Short      -3.0   1.95
+479      2024-01-19  Bought To Cover       3.0   5.42
+-----------------
+SPY Jan 24 '24 $475 Call
+    TransactionDate  TransactionType  Quantity  Price
+484      2024-01-17       Sold Short      -3.0   1.79
+481      2024-01-18  Bought To Cover       3.0   3.11
+-----------------
+SPY Jan 19 '24 $478 Call
+    TransactionDate  TransactionType  Quantity  Price
+485      2024-01-16       Sold Short      -3.0   1.14
+483      2024-01-17  Bought To Cover       3.0   0.29
+-----------------
+SPY Jan 22 '24 $476 Call
+    TransactionDate  TransactionType  Quantity  Price
+487      2024-01-08       Sold Short      -3.0   2.93
+486      2024-01-11  Bought To Cover       3.0   3.35
+-----------------
+SPY Jan 16 '24 $471 Call
+    TransactionDate  TransactionType  Quantity  Price
+489      2024-01-05       Sold Short      -3.0   2.06
+488      2024-01-08  Bought To Cover       3.0   4.72
+-----------------
+SPY Jan 09 '24 $472 Call
+    TransactionDate  TransactionType  Quantity  Price
+492      2024-01-03       Sold Short      -3.0   1.32
+490      2024-01-05  Bought To Cover       3.0   0.34
+-----------------
+SPY Jan 08 '24 $475 Call
+    TransactionDate  TransactionType  Quantity  Price
+493      2024-01-02       Sold Short      -3.0   1.32
+491      2024-01-03  Bought To Cover       3.0   0.40
+-----------------
+SPY Dec 29 '23 $475 Call
+    TransactionDate  TransactionType  Quantity  Price
+498      2023-12-21       Sold Short      -3.0   1.65
+496      2023-12-26  Bought To Cover       3.0   2.55
+-----------------
+SPY Dec 29 '23 $479 Call
+    TransactionDate TransactionType  Quantity  Price
+497      2023-12-26      Sold Short      -3.0    0.9
+-----------------
+SPY Dec 20 '24 $415 Call
+    TransactionDate TransactionType  Quantity  Price
+505      2023-11-29  Bought To Open       3.0  68.74
+500      2023-12-18   Sold To Close      -3.0  82.04
+-----------------
+SPY Dec 08 '23 $457 Call
+    TransactionDate  TransactionType  Quantity  Price
+504      2023-11-30       Sold Short      -3.0   1.79
+501      2023-12-01  Bought To Cover       3.0   3.93
+-----------------
+SPY Dec 08 '23 $460 Call
+    TransactionDate  TransactionType  Quantity  Price
+507      2023-11-29       Sold Short      -3.0   1.72
+503      2023-11-30  Bought To Cover       3.0   0.89
+-----------------
+SPY Sep 20 '24 $400 Call
+    TransactionDate TransactionType  Quantity  Price
+656      2023-06-13  Bought To Open       1.0  70.48
+609      2023-08-30  Bought To Open       1.0  78.97
+583      2023-09-25  Bought To Open       1.0  62.71
+506      2023-11-29   Sold To Close      -3.0  75.03
+-----------------
+SPY Nov 30 '23 $458 Call
+    TransactionDate  TransactionType  Quantity  Price
+509      2023-11-22       Sold Short      -3.0   1.37
+508      2023-11-29  Bought To Cover       3.0   0.61
+-----------------
+SPY Nov 30 '23 $456 Call
+    TransactionDate  TransactionType  Quantity  Price
+511      2023-11-22       Sold Short      -3.0   2.23
+510      2023-11-22  Bought To Cover       3.0   2.27
+-----------------
+SPY Nov 27 '23 $454 Call
+    TransactionDate  TransactionType  Quantity  Price
+513      2023-11-15       Sold Short      -3.0   1.93
+512      2023-11-20  Bought To Cover       3.0   2.42
+-----------------
+SPY Nov 17 '23 $462 Call
+    TransactionDate  TransactionType  Quantity  Price
+516      2023-11-14       Sold Short      -3.0   0.04
+514      2023-11-15  Bought To Cover       3.0   0.04
+-----------------
+SPY Nov 17 '23 $444 Call
+    TransactionDate  TransactionType  Quantity  Price
+518      2023-11-10       Sold Short      -3.0   1.55
+515      2023-11-14  Bought To Cover       3.0   5.54
+-----------------
+SPY Nov 17 '23 $440 Call
+    TransactionDate  TransactionType  Quantity  Price
+519      2023-11-10       Sold Short      -3.0   1.88
+517      2023-11-10  Bought To Cover       3.0   3.50
+-----------------
+SPY Nov 14 '23 $437 Call
+    TransactionDate  TransactionType  Quantity  Price
+521      2023-11-06       Sold Short      -3.0   2.29
+520      2023-11-10  Bought To Cover       3.0   2.30
+-----------------
+SPY Nov 13 '23 $440 Call
+    TransactionDate  TransactionType  Quantity  Price
+524      2023-11-03       Sold Short      -3.0   1.32
+522      2023-11-06  Bought To Cover       3.0   0.88
+-----------------
+SPY Nov 10 '23 $434 Call
+    TransactionDate  TransactionType  Quantity  Price
+526      2023-11-02       Sold Short      -3.0   1.94
+523      2023-11-03  Bought To Cover       3.0   3.75
+-----------------
+SPY Nov 03 '23 $424 Call
+    TransactionDate  TransactionType  Quantity  Price
+528      2023-11-01       Sold Short      -3.0   1.27
+525      2023-11-02  Bought To Cover       3.0   6.34
+-----------------
+SPY Nov 03 '23 $422 Call
+    TransactionDate  TransactionType  Quantity  Price
+531      2023-10-31       Sold Short      -3.0   1.62
+527      2023-11-01  Bought To Cover       3.0   2.06
+-----------------
+SPY Nov 03 '23 $419 Call
+    TransactionDate  TransactionType  Quantity  Price
+533      2023-10-30       Sold Short      -3.0   2.44
+530      2023-10-31  Bought To Cover       3.0   2.97
+-----------------
+SPY Nov 01 '23 $417 Call
+    TransactionDate  TransactionType  Quantity  Price
+534      2023-10-26       Sold Short      -3.0   2.39
+532      2023-10-30  Bought To Cover       3.0   2.28
+-----------------
+SPY Nov 01 '23 $422 Call
+    TransactionDate  TransactionType  Quantity  Price
+537      2023-10-25       Sold Short      -3.0   2.87
+535      2023-10-26  Bought To Cover       3.0   0.97
+-----------------
+SPY Nov 02 '23 $427 Call
+    TransactionDate  TransactionType  Quantity  Price
+538      2023-10-24       Sold Short      -3.0   3.36
+536      2023-10-25  Bought To Cover       3.0   1.50
+-----------------
+SPY Nov 01 '23 $425 Call
+    TransactionDate  TransactionType  Quantity  Price
+540      2023-10-23       Sold Short      -3.0   3.08
+539      2023-10-24  Bought To Cover       3.0   3.95
+-----------------
+SPY Nov 01 '23 $427 Call
+    TransactionDate  TransactionType  Quantity  Price
+542      2023-10-23       Sold Short      -3.0   3.48
+541      2023-10-23  Bought To Cover       3.0   2.30
+-----------------
+SPY Oct 30 '23 $425 Call
+    TransactionDate  TransactionType  Quantity  Price
+545      2023-10-20       Sold Short      -3.0   4.18
+543      2023-10-23  Bought To Cover       3.0   3.64
+-----------------
+SPY Oct 23 '23 $429 Call
+    TransactionDate  TransactionType  Quantity  Price
+547      2023-10-19       Sold Short      -3.0   1.72
+544      2023-10-20  Bought To Cover       3.0   0.46
+-----------------
+SPY Oct 23 '23 $431 Call
+    TransactionDate  TransactionType  Quantity  Price
+549      2023-10-19       Sold Short      -3.0   2.13
+546      2023-10-19  Bought To Cover       3.0   1.05
+-----------------
+SPY Oct 23 '23 $433 Call
+    TransactionDate  TransactionType  Quantity  Price
+551      2023-10-18       Sold Short      -3.0   2.11
+548      2023-10-19  Bought To Cover       3.0   1.34
+-----------------
+SPY Oct 23 '23 $435 Call
+    TransactionDate  TransactionType  Quantity  Price
+553      2023-10-18       Sold Short      -3.0   2.50
+550      2023-10-18  Bought To Cover       3.0   1.37
+-----------------
+SPY Oct 23 '23 $436 Call
+    TransactionDate  TransactionType  Quantity  Price
+554      2023-10-18       Sold Short      -3.0   2.02
+552      2023-10-18  Bought To Cover       3.0   2.05
+-----------------
+SPY Oct 23 '23 $438 Call
+    TransactionDate  TransactionType  Quantity  Price
+557      2023-10-16       Sold Short      -3.0   2.83
+555      2023-10-18  Bought To Cover       3.0   1.29
+-----------------
+SPY Oct 20 '23 $435 Call
+    TransactionDate  TransactionType  Quantity  Price
+558      2023-10-12       Sold Short      -3.0    3.0
+556      2023-10-16  Bought To Cover       3.0    4.2
+-----------------
+SPY Oct 18 '23 $438 Call
+    TransactionDate  TransactionType  Quantity  Price
+561      2023-10-10       Sold Short      -3.0   2.65
+559      2023-10-12  Bought To Cover       3.0   1.10
+-----------------
+SPY Oct 13 '23 $434 Call
+    TransactionDate  TransactionType  Quantity  Price
+562      2023-10-09       Sold Short      -3.0   2.51
+560      2023-10-10  Bought To Cover       3.0   3.76
+-----------------
+SPY Oct 13 '23 $429 Call
+    TransactionDate  TransactionType  Quantity  Price
+564      2023-10-09       Sold Short      -3.0   2.89
+563      2023-10-09  Bought To Cover       3.0   5.45
+-----------------
+SPY Oct 09 '23 $429 Call
+    TransactionDate  TransactionType  Quantity  Price
+566      2023-10-06       Sold Short      -3.0   1.65
+565      2023-10-09  Bought To Cover       3.0   0.41
+-----------------
+SPY Oct 09 '23 $427 Call
+    TransactionDate  TransactionType  Quantity  Price
+568      2023-10-04       Sold Short      -3.0   2.13
+567      2023-10-06  Bought To Cover       3.0   2.77
+-----------------
+SPY Oct 09 '23 $425 Call
+    TransactionDate  TransactionType  Quantity  Price
+571      2023-10-03       Sold Short      -3.0   2.28
+569      2023-10-04  Bought To Cover       3.0   3.16
+-----------------
+SPY Oct 06 '23 $433 Call
+    TransactionDate  TransactionType  Quantity  Price
+574      2023-09-29       Sold Short      -1.0   1.92
+577      2023-09-29       Sold Short      -1.0   1.92
+578      2023-09-29       Sold Short      -1.0   1.93
+570      2023-10-03  Bought To Cover       3.0   0.23
+-----------------
+SPY Sep 29 '23 $430 Call
+    TransactionDate  TransactionType  Quantity  Price
+580      2023-09-26       Sold Short      -3.0   2.01
+573      2023-09-29  Bought To Cover       1.0   0.67
+575      2023-09-29  Bought To Cover       1.0   0.68
+576      2023-09-29  Bought To Cover       1.0   0.67
+-----------------
+SPY Sep 29 '23 $432 Call
+    TransactionDate  TransactionType  Quantity  Price
+582      2023-09-26       Sold Short      -3.0   2.07
+579      2023-09-26  Bought To Cover       3.0   1.25
+-----------------
+SPY Sep 27 '23 $433 Call
+    TransactionDate  TransactionType  Quantity  Price
+586      2023-09-22       Sold Short      -2.0   1.65
+584      2023-09-25       Sold Short      -1.0   1.49
+581      2023-09-26  Bought To Cover       3.0   0.67
+-----------------
+SPY Sep 26 '23 $436 Call
+    TransactionDate  TransactionType  Quantity  Price
+588      2023-09-21       Sold Short      -1.0   1.72
+590      2023-09-21       Sold Short      -1.0   1.72
+585      2023-09-22  Bought To Cover       2.0   0.42
+-----------------
+SPY Sep 25 '23 $440 Call
+    TransactionDate  TransactionType  Quantity  Price
+591      2023-09-20       Sold Short      -2.0   1.71
+587      2023-09-21  Bought To Cover       1.0   0.34
+589      2023-09-21  Bought To Cover       1.0   0.34
+-----------------
+SPY Sep 22 '23 $445 Call
+    TransactionDate  TransactionType  Quantity  Price
+594      2023-09-19       Sold Short      -2.0   1.25
+592      2023-09-20  Bought To Cover       2.0   0.19
+-----------------
+SPY Sep 22 '23 $447.50 Call
+    TransactionDate  TransactionType  Quantity  Price
+597      2023-09-15       Sold Short      -1.0   1.65
+598      2023-09-15       Sold Short      -1.0   1.65
+593      2023-09-19  Bought To Cover       2.0   0.54
+-----------------
+SPY Sep 22 '23 $450 Call
+    TransactionDate  TransactionType  Quantity  Price
+600      2023-09-13       Sold Short      -2.0   1.61
+595      2023-09-15  Bought To Cover       1.0   0.88
+596      2023-09-15  Bought To Cover       1.0   0.88
+-----------------
+SPY Sep 15 '23 $450 Call
+    TransactionDate  TransactionType  Quantity  Price
+601      2023-09-11       Sold Short      -2.0   1.32
+599      2023-09-13  Bought To Cover       2.0   0.45
+-----------------
+SPY Sep 15 '23 $449 Call
+    TransactionDate  TransactionType  Quantity  Price
+603      2023-09-06       Sold Short      -2.0   1.81
+602      2023-09-11  Bought To Cover       2.0   1.76
+-----------------
+SPY Sep 15 '23 $455 Call
+    TransactionDate  TransactionType  Quantity  Price
+605      2023-09-05       Sold Short      -2.0   1.52
+604      2023-09-06  Bought To Cover       2.0   0.38
+-----------------
+SPY Sep 05 '23 $450 Call
+    TransactionDate  TransactionType  Quantity  Price
+608      2023-08-30       Sold Short      -1.0   2.89
+610      2023-08-30       Sold Short      -1.0   2.88
+606      2023-09-05  Bought To Cover       2.0   0.88
+-----------------
+SPY Sep 01 '23 $445 Call
+    TransactionDate  TransactionType  Quantity  Price
+617      2023-08-24       Sold Short      -1.0   3.20
+611      2023-08-30  Bought To Cover       1.0   6.36
+-----------------
+SPY Aug 28 '23 $440 Call
+    TransactionDate  TransactionType  Quantity  Price
+618      2023-08-18       Sold Short      -1.0   2.63
+616      2023-08-24  Bought To Cover       1.0   4.75
+-----------------
+SPY Aug 25 '23 $445 Call
+    TransactionDate  TransactionType  Quantity  Price
+621      2023-08-16       Sold Short      -1.0   3.04
+619      2023-08-18  Bought To Cover       1.0   0.78
+-----------------
+SPY Aug 18 '23 $450 Call
+    TransactionDate  TransactionType  Quantity  Price
+623      2023-08-08       Sold Short      -1.0   2.76
+620      2023-08-16  Bought To Cover       1.0   0.15
+-----------------
+SPY Aug 11 '23 $453 Call
+    TransactionDate  TransactionType  Quantity  Price
+624      2023-08-02       Sold Short      -1.0   3.58
+622      2023-08-08  Bought To Cover       1.0   0.49
+-----------------
+SPY Aug 04 '23 $458 Call
+    TransactionDate  TransactionType  Quantity  Price
+627      2023-07-28       Sold Short      -1.0   2.59
+625      2023-08-02  Bought To Cover       1.0   0.36
+-----------------
+SPY Aug 04 '23 $454 Call
+    TransactionDate  TransactionType  Quantity  Price
+628      2023-07-27       Sold Short      -1.0   2.70
+626      2023-07-28  Bought To Cover       1.0   5.19
+-----------------
+SPY Jul 28 '23 $458 Call
+    TransactionDate  TransactionType  Quantity  Price
+631      2023-07-27       Sold Short      -1.0   1.29
+629      2023-07-27  Bought To Cover       1.0   0.15
+-----------------
+SPY Jul 28 '23 $456 Call
+    TransactionDate  TransactionType  Quantity  Price
+636      2023-07-19       Sold Short      -1.0   3.82
+630      2023-07-27  Bought To Cover       1.0   2.56
+-----------------
+SPY Aug 01 '23 $454 Call
+    TransactionDate  TransactionType  Quantity  Price
+637      2023-07-18       Sold Short      -1.0   3.85
+635      2023-07-19  Bought To Cover       1.0   5.51
+-----------------
+SPY Jul 28 '23 $451 Call
+    TransactionDate  TransactionType  Quantity  Price
+640      2023-07-17       Sold Short      -1.0   4.03
+638      2023-07-18  Bought To Cover       1.0   5.15
+-----------------
+SPY Jul 21 '23 $448 Call
+    TransactionDate  TransactionType  Quantity  Price
+642      2023-07-12       Sold Short      -1.0   2.44
+639      2023-07-17  Bought To Cover       1.0   4.22
+-----------------
+SPY Jul 14 '23 $440 Call
+    TransactionDate  TransactionType  Quantity  Price
+643      2023-07-06       Sold Short      -1.0   2.56
+641      2023-07-12  Bought To Cover       1.0   6.73
+-----------------
+SPY Jul 14 '23 $445 Call
+    TransactionDate  TransactionType  Quantity  Price
+645      2023-07-05       Sold Short      -1.0   2.56
+644      2023-07-06  Bought To Cover       1.0   0.83
+-----------------
+SPY Jul 05 '23 $440 Call
+    TransactionDate  TransactionType  Quantity  Price
+647      2023-06-27       Sold Short      -1.0   1.09
+646      2023-07-05  Bought To Cover       1.0   3.42
+-----------------
+SPY Jul 05 '23 $437 Call
+    TransactionDate  TransactionType  Quantity  Price
+653      2023-06-23       Sold Short      -1.0   1.94
+648      2023-06-27  Bought To Cover       1.0   2.28
+-----------------
+SPY Jun 28 '23 $437 Call
+    TransactionDate  TransactionType  Quantity  Price
+655      2023-06-21       Sold Short      -1.0   1.98
+652      2023-06-23  Bought To Cover       1.0   0.91
+-----------------
+SPY Jun 27 '23 $440 Call
+    TransactionDate  TransactionType  Quantity  Price
+659      2023-06-13       Sold Short      -1.0   2.31
+654      2023-06-21  Bought To Cover       1.0   0.79
+-----------------
+SPY Jun 21 '24 $380 Call
+    TransactionDate TransactionType  Quantity  Price
+676      2023-05-22  Bought To Open       1.0  68.13
+657      2023-06-13   Sold To Close      -1.0  80.88
+-----------------
+SPY Jun 15 '23 $432 Call
+    TransactionDate  TransactionType  Quantity  Price
+661      2023-06-12       Sold Short      -1.0   2.54
+658      2023-06-13  Bought To Cover       1.0   5.91
+-----------------
+SPY Jun 14 '23 $427 Call
+    TransactionDate  TransactionType  Quantity  Price
+663      2023-06-07       Sold Short      -1.0   2.77
+660      2023-06-12  Bought To Cover       1.0   5.39
+-----------------
+SPY Jun 09 '23 $428 Call
+    TransactionDate  TransactionType  Quantity  Price
+664      2023-06-05       Sold Short      -1.0   1.89
+662      2023-06-07  Bought To Cover       1.0   0.97
+-----------------
+SPY Jun 06 '23 $419 Call
+    TransactionDate  TransactionType  Quantity  Price
+668      2023-05-26       Sold Short      -1.0   4.20
+665      2023-06-05  Bought To Cover       1.0   8.19
+-----------------
+SPY May 31 '23 $414 Call
+    TransactionDate  TransactionType  Quantity  Price
+671      2023-05-24       Sold Short      -1.0   2.03
+669      2023-05-26  Bought To Cover       1.0   6.04
+-----------------
+SPY May 26 '23 $416 Call
+    TransactionDate  TransactionType  Quantity  Price
+674      2023-05-23       Sold Short      -1.0   1.67
+672      2023-05-24  Bought To Cover       1.0   0.54
+-----------------
+SPY May 26 '23 $420 Call
+    TransactionDate  TransactionType  Quantity  Price
+678      2023-05-22       Sold Short      -1.0   2.27
+673      2023-05-23  Bought To Cover       1.0   0.46
+-----------------
+SPY Mar 15 '24 $360 Call
+    TransactionDate TransactionType  Quantity  Price
+751      2023-03-03  Bought To Open       1.0  70.61
+675      2023-05-22   Sold To Close      -1.0  78.38
+-----------------
+SPY May 25 '23 $415 Call
+    TransactionDate  TransactionType  Quantity  Price
+680      2023-05-17       Sold Short      -1.0   3.60
+677      2023-05-22  Bought To Cover       1.0   5.28
+-----------------
+SPY May 24 '23 $413 Call
+    TransactionDate  TransactionType  Quantity  Price
+683      2023-05-16       Sold Short      -1.0   2.45
+681      2023-05-17  Bought To Cover       1.0   4.58
+-----------------
+SPY May 18 '23 $413 Call
+    TransactionDate  TransactionType  Quantity  Price
+685      2023-05-12       Sold Short      -1.0   1.47
+682      2023-05-16  Bought To Cover       1.0   0.98
+-----------------
+SPY May 17 '23 $415 Call
+    TransactionDate  TransactionType  Quantity  Price
+687      2023-05-10       Sold Short      -1.0   1.80
+684      2023-05-12  Bought To Cover       1.0   0.55
+-----------------
+SPY May 11 '23 $412 Call
+    TransactionDate  TransactionType  Quantity  Price
+689      2023-05-05       Sold Short      -1.0   3.33
+686      2023-05-10  Bought To Cover       1.0   1.74
+-----------------
+SPY May 10 '23 $409 Call
+    TransactionDate  TransactionType  Quantity  Price
+691      2023-05-04       Sold Short      -1.0   2.18
+688      2023-05-05  Bought To Cover       1.0   4.94
+-----------------
+SPY May 05 '23 $415 Call
+    TransactionDate  TransactionType  Quantity  Price
+692      2023-04-27       Sold Short      -1.0   1.69
+690      2023-05-04  Bought To Cover       1.0   0.05
+-----------------
+SPY May 02 '23 $412 Call
+    TransactionDate  TransactionType  Quantity  Price
+702      2023-04-25       Sold Short      -1.0   1.98
+693      2023-04-27  Bought To Cover       1.0   1.28
+-----------------
+UCO May 19 '23 $26 Call
+    TransactionDate TransactionType  Quantity  Price
+695      2023-04-27  Bought To Open      10.0   1.55
+694      2023-04-27   Sold To Close      -7.0   1.44
+-----------------
+UCO Apr 28 '23 $26 Call
+    TransactionDate TransactionType  Quantity  Price
+697      2023-04-27  Bought To Open      10.0   0.27
+696      2023-04-27   Sold To Close     -10.0   0.25
+-----------------
+SPY Apr 28 '23 $415 Call
+    TransactionDate  TransactionType  Quantity  Price
+704      2023-04-19       Sold Short      -1.0   2.82
+701      2023-04-25  Bought To Cover       1.0   0.50
+-----------------
+SPY Apr 21 '23 $413 Call
+    TransactionDate  TransactionType  Quantity  Price
+708      2023-04-17       Sold Short      -1.0   1.90
+703      2023-04-19  Bought To Cover       1.0   2.08
+-----------------
+SPY Apr 19 '23 $410 Call
+    TransactionDate  TransactionType  Quantity  Price
+712      2023-04-12       Sold Short      -1.0   2.37
+709      2023-04-17  Bought To Cover       1.0   2.79
+-----------------
+SPY Apr 14 '23 $411 Call
+    TransactionDate  TransactionType  Quantity  Price
+714      2023-04-10       Sold Short      -1.0   2.27
+711      2023-04-12  Bought To Cover       1.0   0.90
+-----------------
+SPY Apr 11 '23 $410 Call
+    TransactionDate  TransactionType  Quantity  Price
+716      2023-04-05       Sold Short      -1.0   1.62
+713      2023-04-10  Bought To Cover       1.0   0.91
+-----------------
+SPY Apr 11 '23 $412 Call
+    TransactionDate  TransactionType  Quantity  Price
+718      2023-04-03       Sold Short      -1.0   3.23
+715      2023-04-05  Bought To Cover       1.0   0.98
+-----------------
+SPY Apr 06 '23 $410 Call
+    TransactionDate  TransactionType  Quantity  Price
+721      2023-03-31       Sold Short      -1.0   1.92
+717      2023-04-03  Bought To Cover       1.0   3.11
+-----------------
+SPY Apr 05 '23 $401 Call
+    TransactionDate  TransactionType  Quantity  Price
+723      2023-03-29       Sold Short      -1.0   3.26
+720      2023-03-31  Bought To Cover       1.0   7.42
+-----------------
+SPY Mar 31 '23 $396 Call
+    TransactionDate  TransactionType  Quantity  Price
+733      2023-03-23       Sold Short      -1.0   3.25
+722      2023-03-29  Bought To Cover       1.0   5.05
+-----------------
+UCO Apr 06 '23 $25 Call
+    TransactionDate TransactionType  Quantity  Price
+726      2023-03-28  Bought To Open       2.0   1.47
+724      2023-03-29   Sold To Close      -2.0   1.38
+-----------------
+UCO Mar 31 '23 $24 Call
+    TransactionDate TransactionType  Quantity  Price
+730      2023-03-24  Bought To Open       1.0   0.46
+731      2023-03-24  Bought To Open       1.0   0.45
+725      2023-03-28   Sold To Close      -2.0   1.72
+-----------------
+SPY Mar 28 '23 $396 Call
+    TransactionDate  TransactionType  Quantity  Price
+735      2023-03-21       Sold Short      -1.0   6.19
+732      2023-03-23  Bought To Cover       1.0   2.07
+-----------------
+SPY Mar 27 '23 $394 Call
+    TransactionDate  TransactionType  Quantity  Price
+738      2023-03-20       Sold Short      -1.0   5.45
+734      2023-03-21  Bought To Cover       1.0   7.22
+-----------------
+SPY Mar 24 '23 $390 Call
+    TransactionDate  TransactionType  Quantity  Price
+741      2023-03-13       Sold Short      -1.0   5.27
+737      2023-03-20  Bought To Cover       1.0   7.50
+-----------------
+SPY Mar 20 '23 $390 Call
+    TransactionDate  TransactionType  Quantity  Price
+743      2023-03-10       Sold Short      -1.0   4.71
+740      2023-03-13  Bought To Cover       1.0   3.72
+-----------------
+SPY Mar 17 '23 $396 Call
+    TransactionDate  TransactionType  Quantity  Price
+744      2023-03-09       Sold Short      -1.0   4.32
+742      2023-03-10  Bought To Cover       1.0   2.13
+-----------------
+SPY Mar 17 '23 $400 Call
+    TransactionDate  TransactionType  Quantity  Price
+747      2023-03-08       Sold Short      -1.0   3.79
+745      2023-03-09  Bought To Cover       1.0   2.66
+-----------------
+SPY Mar 17 '23 $406 Call
+    TransactionDate  TransactionType  Quantity  Price
+749      2023-03-06       Sold Short      -1.0   5.79
+746      2023-03-08  Bought To Cover       1.0   1.62
+-----------------
+SPY Mar 15 '23 $405 Call
+    TransactionDate  TransactionType  Quantity  Price
+753      2023-03-03       Sold Short      -1.0   4.82
+748      2023-03-06  Bought To Cover       1.0   6.13
+-----------------
+SPY Jan 19 '24 $350 Call
+    TransactionDate TransactionType  Quantity  Price
+866      2022-11-08  Bought To Open       1.0  69.62
+750      2023-03-03   Sold To Close      -1.0  73.61
+-----------------
+SPY Mar 10 '23 $400 Call
+    TransactionDate  TransactionType  Quantity  Price
+754      2023-03-01       Sold Short      -1.0   2.98
+752      2023-03-03  Bought To Cover       1.0   6.37
+-----------------
+SPY Mar 03 '23 $400 Call
+    TransactionDate  TransactionType  Quantity  Price
+760      2023-02-23       Sold Short      -1.0   3.17
+755      2023-03-01  Bought To Cover       1.0   0.86
+-----------------
+SPY Feb 24 '23 $405 Call
+    TransactionDate  TransactionType  Quantity  Price
+763      2023-02-21       Sold Short      -1.0   1.73
+759      2023-02-23  Bought To Cover       1.0   0.13
+-----------------
+SPY Feb 24 '23 $414 Call
+    TransactionDate  TransactionType  Quantity  Price
+765      2023-02-16       Sold Short      -1.0   2.76
+762      2023-02-21  Bought To Cover       1.0   0.15
+-----------------
+SPY Feb 16 '23 $414 Call
+    TransactionDate  TransactionType  Quantity  Price
+768      2023-02-14       Sold Short      -1.0   1.98
+766      2023-02-16  Bought To Cover       1.0   0.20
+-----------------
+SPY Feb 15 '23 $412 Call
+    TransactionDate  TransactionType  Quantity  Price
+770      2023-02-09       Sold Short      -1.0   3.59
+767      2023-02-14  Bought To Cover       1.0   2.32
+-----------------
+SPY Feb 10 '23 $414 Call
+    TransactionDate  TransactionType  Quantity  Price
+771      2023-02-03       Sold Short      -1.0   3.42
+769      2023-02-09  Bought To Cover       1.0   0.42
+-----------------
+SPY Feb 03 '23 $415 Call
+    TransactionDate  TransactionType  Quantity  Price
+774      2023-02-01       Sold Short      -1.0   1.94
+772      2023-02-03  Bought To Cover       1.0   0.78
+-----------------
+SPY Feb 01 '23 $406 Call
+    TransactionDate  TransactionType  Quantity  Price
+776      2023-01-27       Sold Short      -1.0   3.74
+773      2023-02-01  Bought To Cover       1.0   6.34
+-----------------
+SPY Jan 31 '23 $401 Call
+    TransactionDate  TransactionType  Quantity  Price
+779      2023-01-26       Sold Short      -1.0   4.83
+775      2023-01-27  Bought To Cover       1.0   5.95
+-----------------
+SPY Jan 27 '23 $398 Call
+    TransactionDate  TransactionType  Quantity  Price
+783      2023-01-23       Sold Short      -1.0   5.83
+780      2023-01-26  Bought To Cover       1.0   6.41
+-----------------
+SPY Jan 24 '23 $392 Call
+    TransactionDate  TransactionType  Quantity  Price
+785      2023-01-19       Sold Short      -1.0   1.79
+782      2023-01-23  Bought To Cover       1.0  10.04
+-----------------
+SPY Jan 20 '23 $395 Call
+    TransactionDate  TransactionType  Quantity  Price
+786      2023-01-17       Sold Short      -1.0   4.08
+784      2023-01-19  Bought To Cover       1.0   0.22
+-----------------
+SPY Jan 18 '23 $395 Call
+    TransactionDate  TransactionType  Quantity  Price
+789      2023-01-13       Sold Short      -1.0   2.28
+787      2023-01-17  Bought To Cover       1.0   3.17
+-----------------
+SPY Jan 13 '23 $395 Call
+    TransactionDate  TransactionType  Quantity  Price
+790      2023-01-11       Sold Short      -1.0   3.95
+788      2023-01-13  Bought To Cover       1.0   0.90
+-----------------
+SPY Jan 11 '23 $390 Call
+    TransactionDate  TransactionType  Quantity  Price
+793      2023-01-06       Sold Short      -1.0   2.40
+791      2023-01-11  Bought To Cover       1.0   3.87
+-----------------
+SPY Jan 11 '23 $386 Call
+    TransactionDate  TransactionType  Quantity  Price
+794      2023-01-05       Sold Short      -1.0   1.65
+792      2023-01-06  Bought To Cover       1.0   4.70
+-----------------
+SPY Jan 06 '23 $385 Call
+    TransactionDate  TransactionType  Quantity  Price
+796      2023-01-04       Sold Short      -1.0   2.92
+795      2023-01-05  Bought To Cover       1.0   0.85
+-----------------
+SPY Jan 06 '23 $384 Call
+    TransactionDate  TransactionType  Quantity  Price
+800      2022-12-30       Sold Short      -1.0   2.81
+797      2023-01-04  Bought To Cover       1.0   3.48
+-----------------
+SPY Jan 03 '23 $383 Call
+    TransactionDate  TransactionType  Quantity  Price
+802      2022-12-28       Sold Short      -1.0   1.49
+799      2022-12-30  Bought To Cover       1.0   1.20
+-----------------
+SPY Dec 30 '22 $380 Call
+    TransactionDate  TransactionType  Quantity  Price
+806      2022-12-22       Sold Short      -1.0   3.11
+801      2022-12-28  Bought To Cover       1.0   2.11
+-----------------
+SPY Dec 23 '22 $382 Call
+    TransactionDate  TransactionType  Quantity  Price
+808      2022-12-19       Sold Short      -1.0   2.69
+807      2022-12-22  Bought To Cover       1.0   0.51
+-----------------
+SPY Dec 20 '22 $385 Call
+    TransactionDate  TransactionType  Quantity  Price
+810      2022-12-16       Sold Short      -1.0   2.19
+809      2022-12-19  Bought To Cover       1.0   0.36
+-----------------
+SPY Dec 19 '22 $390 Call
+    TransactionDate  TransactionType  Quantity  Price
+815      2022-12-15       Sold Short      -1.0   2.14
+811      2022-12-16  Bought To Cover       1.0   0.43
+-----------------
+SPY Dec 16 '22 $403 Call
+    TransactionDate  TransactionType  Quantity  Price
+817      2022-12-14       Sold Short      -1.0   2.19
+812      2022-12-15  Bought To Cover       1.0   0.16
+-----------------
+SPY Dec 19 '22 $396 Call
+    TransactionDate  TransactionType  Quantity  Price
+813      2022-12-15       Sold Short      -1.0   1.66
+814      2022-12-15  Bought To Cover       1.0   0.59
+-----------------
+SPY Dec 14 '22 $401 Call
+    TransactionDate  TransactionType  Quantity  Price
+819      2022-12-08       Sold Short      -1.0   3.64
+816      2022-12-14  Bought To Cover       1.0   3.13
+-----------------
+SPY Dec 09 '22 $397 Call
+    TransactionDate  TransactionType  Quantity  Price
+821      2022-12-06       Sold Short      -1.0   2.56
+818      2022-12-08  Bought To Cover       1.0   1.49
+-----------------
+SPY Dec 09 '22 $406 Call
+    TransactionDate  TransactionType  Quantity  Price
+823      2022-12-05       Sold Short      -1.0   1.92
+820      2022-12-06  Bought To Cover       1.0   0.38
+-----------------
+SPY Dec 08 '22 $407 Call
+    TransactionDate  TransactionType  Quantity  Price
+825      2022-12-05       Sold Short      -1.0   1.12
+822      2022-12-05  Bought To Cover       1.0   1.16
+-----------------
+SPY Dec 06 '22 $407 Call
+    TransactionDate  TransactionType  Quantity  Price
+826      2022-12-02       Sold Short      -1.0   1.21
+824      2022-12-05  Bought To Cover       1.0   0.43
+-----------------
+SPY Dec 02 '22 $405 Call
+    TransactionDate  TransactionType  Quantity  Price
+828      2022-11-30       Sold Short      -1.0   2.15
+827      2022-12-02  Bought To Cover       1.0   0.69
+-----------------
+SPY Dec 01 '22 $400 Call
+    TransactionDate  TransactionType  Quantity  Price
+832      2022-11-28       Sold Short      -1.0   2.44
+829      2022-11-30  Bought To Cover       1.0   3.99
+-----------------
+SPY Nov 28 '22 $400 Call
+    TransactionDate  TransactionType  Quantity  Price
+836      2022-11-22       Sold Short      -1.0   2.07
+833      2022-11-28  Bought To Cover       1.0   0.31
+-----------------
+SPY Nov 25 '22 $397 Call
+    TransactionDate  TransactionType  Quantity  Price
+838      2022-11-21       Sold Short      -1.0   1.63
+835      2022-11-22  Bought To Cover       1.0   3.13
+-----------------
+SPY Nov 21 '22 $396 Call
+    TransactionDate  TransactionType  Quantity  Price
+839      2022-11-18       Sold Short      -1.0   1.42
+837      2022-11-21  Bought To Cover       1.0   0.26
+-----------------
+SPY Nov 18 '22 $396 Call
+    TransactionDate  TransactionType  Quantity  Price
+842      2022-11-17       Sold Short      -1.0   1.49
+840      2022-11-18  Bought To Cover       1.0   0.29
+-----------------
+SPY Nov 17 '22 $398 Call
+    TransactionDate  TransactionType  Quantity  Price
+844      2022-11-16       Sold Short      -1.0   1.60
+841      2022-11-17  Bought To Cover       1.0   0.09
+-----------------
+SPY Nov 16 '22 $395 Call
+    TransactionDate  TransactionType  Quantity  Price
+846      2022-11-14       Sold Short      -1.0   3.07
+843      2022-11-16  Bought To Cover       1.0   2.04
+-----------------
+SPY Nov 16 '22 $403 Call
+    TransactionDate  TransactionType  Quantity  Price
+853      2022-11-11       Sold Short      -1.0   2.01
+845      2022-11-14  Bought To Cover       1.0   0.48
+-----------------
+AMZN Nov 11 '22 $98 Call
+    TransactionDate  TransactionType  Quantity  Price
+857      2022-11-10       Sold Short      -2.0   0.65
+847      2022-11-11  Bought To Cover       2.0   1.89
+-----------------
+AMZN Nov 25 '22 $100 Call
+    TransactionDate  TransactionType  Quantity  Price
+848      2022-11-11       Sold Short      -2.0   3.25
+855      2022-11-11  Bought To Cover       2.0   3.93
+-----------------
+SPY Nov 14 '22 $380 Call
+    TransactionDate  TransactionType  Quantity  Price
+863      2022-11-09       Sold Short      -1.0   2.56
+849      2022-11-11  Bought To Cover       1.0  16.84
+-----------------
+SPY Nov 16 '22 $399 Call
+    TransactionDate  TransactionType  Quantity  Price
+850      2022-11-11       Sold Short      -1.0   2.98
+854      2022-11-11  Bought To Cover       1.0   3.78
+-----------------
+AMZN Jan 19 '24 $100 Call
+    TransactionDate TransactionType  Quantity  Price
+858      2022-11-10   Sold To Close      -1.0  17.30
+851      2022-11-11   Sold To Close      -2.0  20.65
+-----------------
+AMZN Nov 25 '22 $105 Call
+    TransactionDate  TransactionType  Quantity  Price
+856      2022-11-11       Sold Short      -2.0   1.75
+852      2022-11-11  Bought To Cover       2.0   1.76
+-----------------
+AMZN Nov 18 '22 $90.50 Call
+    TransactionDate  TransactionType  Quantity  Price
+861      2022-11-09       Sold Short      -3.0   1.22
+859      2022-11-10  Bought To Cover       3.0   6.25
+-----------------
+AMZN Nov 18 '22 $95 Call
+    TransactionDate  TransactionType  Quantity  Price
+860      2022-11-09  Bought To Cover       3.0   0.44
+-----------------
+SPY Nov 11 '22 $390 Call
+    TransactionDate  TransactionType  Quantity  Price
+865      2022-11-08       Sold Short      -1.0   2.60
+862      2022-11-09  Bought To Cover       1.0   0.32
+-----------------
+SPY Nov 11 '22 $383 Call
+    TransactionDate  TransactionType  Quantity  Price
+864      2022-11-08  Bought To Cover       1.0   5.78
+-----------------
+SPY Dec 15 '23 $340 Call
+    TransactionDate TransactionType  Quantity  Price
+868      2022-10-18  Bought To Open      -1.0  66.86
+867      2022-11-08   Sold To Close      -1.0  74.62
+-----------------
