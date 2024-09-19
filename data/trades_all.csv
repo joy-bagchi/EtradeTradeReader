@@ -3,6 +3,62 @@ For Account:,#####6267,,,,,,,
 ,,,,,,,,
 TransactionDate,TransactionType,SecurityType,Symbol,Quantity,Amount,Price,Commission,Description
 ,,,,,,,,
+9/17/2024,Transfer, , ,0,-3000,0,0,ACH WITHDRAWL  REFID:117266777906;
+9/17/2024,Sold Short,OPTN,SPY Sep 18 '24 $566 Call,-6,926.88,1.55,3.1,SPY Sep 18 '24 $566 Call
+9/17/2024,Bought To Cover,OPTN,SPY Sep 18 '24 $571 Call,6,-249.07,0.41,3.07,SPY Sep 18 '24 $571 Call
+9/17/2024,Sold Short,OPTN,SPY Sep 18 '24 $571 Call,-6,614.89,1.03,3.09,SPY Sep 18 '24 $571 Call
+9/17/2024,Bought To Cover,OPTN,SPY Sep 17 '24 $565 Call,6,-1017.07,1.69,3.07,SPY Sep 17 '24 $565 Call
+9/16/2024,Transfer, , ,0,-500,0,0,ACH WITHDRAWL  REFID:117192304906;
+9/13/2024,Sold Short,OPTN,SPY Sep 17 '24 $565 Call,-6,548.89,0.92,3.09,SPY Sep 17 '24 $565 Call
+9/11/2024,Bought To Cover,OPTN,SPY Sep 13 '24 $560 Call,6,-213.07,0.35,3.07,SPY Sep 13 '24 $560 Call
+9/11/2024,Sold Short,OPTN,SPY Sep 13 '24 $560 Call,-6,254.9,0.43,3.08,SPY Sep 13 '24 $560 Call
+9/11/2024,Bought To Cover,OPTN,SPY Sep 13 '24 $554 Call,6,-1347.07,2.24,3.07,SPY Sep 13 '24 $554 Call
+9/11/2024,Sold Short,OPTN,SPY Sep 16 '24 $554 Call,-6,782.88,1.31,3.1,SPY Sep 16 '24 $554 Call
+9/11/2024,Bought To Cover,OPTN,SPY Sep 13 '24 $545 Call,6,-2961.07,4.93,3.07,SPY Sep 13 '24 $545 Call
+9/11/2024,Bought To Cover,OPTN,SPY Sep 16 '24 $554 Call,6,-801.07,1.33,3.07,SPY Sep 16 '24 $554 Call
+9/11/2024,Sold Short,OPTN,SPY Sep 13 '24 $554 Call,-6,506.89,0.85,3.09,SPY Sep 13 '24 $554 Call
+9/11/2024,Bought To Cover,OPTN,SPY Sep 11 '24 $551 Call,6,-18.07,0.03,0.07,SPY Sep 11 '24 $551 Call
+9/11/2024,Sold Short,OPTN,SPY Sep 13 '24 $545 Call,-6,1274.87,2.13,3.11,SPY Sep 13 '24 $545 Call
+9/10/2024,Bought To Cover,OPTN,SPY Sep 11 '24 $548 Call,6,-1869.07,3.11,3.07,SPY Sep 11 '24 $548 Call
+9/10/2024,Sold Short,OPTN,SPY Sep 11 '24 $551 Call,-6,986.88,1.65,3.1,SPY Sep 11 '24 $551 Call
+9/9/2024,Sold Short,OPTN,SPY Sep 11 '24 $548 Call,-1,192.48,1.93,0.52,SPY Sep 11 '24 $548 Call
+9/9/2024,Bought To Cover,OPTN,SPY Sep 10 '24 $551 Call,6,-183.07,0.3,3.07,SPY Sep 10 '24 $551 Call
+9/9/2024,Sold Short,OPTN,SPY Sep 11 '24 $548 Call,-5,957.4,1.92,2.59,SPY Sep 11 '24 $548 Call
+9/9/2024,Bought To Cover,OPTN,SPY Sep 09 '24 $544 Call,6,-1719.07,2.86,3.07,SPY Sep 09 '24 $544 Call
+9/9/2024,Sold Short,OPTN,SPY Sep 10 '24 $551 Call,-6,380.89,0.64,3.09,SPY Sep 10 '24 $551 Call
+9/6/2024,Bought To Cover,OPTN,SPY Sep 09 '24 $547 Call,6,-375.07,0.62,3.07,SPY Sep 09 '24 $547 Call
+9/6/2024,Sold Short,OPTN,SPY Sep 09 '24 $544 Call,-6,776.88,1.3,3.1,SPY Sep 09 '24 $544 Call
+9/6/2024,Bought To Cover,OPTN,SPY Sep 06 '24 $553 Call,6,-30.07,0.05,0.07,SPY Sep 06 '24 $553 Call
+9/6/2024,Sold Short,OPTN,SPY Sep 09 '24 $547 Call,-6,848.88,1.42,3.1,SPY Sep 09 '24 $547 Call
+9/5/2024,Transfer, , ,0,-500,0,0,ACH WITHDRAWL  REFID:116416591906;
+9/5/2024,Sold Short,OPTN,SPY Sep 06 '24 $553 Call,-6,758.88,1.27,3.1,SPY Sep 06 '24 $553 Call
+9/5/2024,Bought To Cover,OPTN,SPY Sep 06 '24 $557 Call,6,-255.07,0.42,3.07,SPY Sep 06 '24 $557 Call
+9/5/2024,Bought To Cover,OPTN,SPY Sep 06 '24 $555 Call,1,-255.51,2.55,0.51,SPY Sep 06 '24 $555 Call
+9/5/2024,Sold Short,OPTN,SPY Sep 06 '24 $557 Call,-5,832.4,1.67,2.59,SPY Sep 06 '24 $557 Call
+9/5/2024,Bought To Cover,OPTN,SPY Sep 06 '24 $555 Call,5,-1262.56,2.52,2.56,SPY Sep 06 '24 $555 Call
+9/5/2024,Sold Short,OPTN,SPY Sep 06 '24 $557 Call,-1,169.48,1.7,0.52,SPY Sep 06 '24 $557 Call
+9/4/2024,Transfer, , ,0,-1200,0,0,ACH WITHDRAWL  REFID:116261725906;
+9/3/2024,Transfer, , ,0,-500,0,0,ACH WITHDRAWL  REFID:116095814906;
+9/3/2024,Sold Short,OPTN,SPY Sep 06 '24 $555 Call,-6,1532.86,2.56,3.12,SPY Sep 06 '24 $555 Call
+9/3/2024,Bought To Cover,OPTN,SPY Sep 04 '24 $561 Call,6,-60.07,0.1,0.07,SPY Sep 04 '24 $561 Call
+9/3/2024,Sold Short,OPTN,SPY Sep 04 '24 $561 Call,-4,393.92,0.99,2.07,SPY Sep 04 '24 $561 Call
+9/3/2024,Bought To Cover,OPTN,SPY Sep 04 '24 $563 Call,4,-210.05,0.52,2.05,SPY Sep 04 '24 $563 Call
+9/3/2024,Bought To Cover,OPTN,SPY Sep 04 '24 $563 Call,2,-109.02,0.54,1.02,SPY Sep 04 '24 $563 Call
+9/3/2024,Sold Short,OPTN,SPY Sep 04 '24 $561 Call,-2,202.96,1.02,1.03,SPY Sep 04 '24 $561 Call
+8/30/2024,Interest,MMF,CBP,-0.12,0.12,0,0,CASH BALANCE PROGRAM (Period 08/01-08/31)
+8/30/2024,Sold Short,OPTN,SPY Sep 04 '24 $563 Call,-6,506.89,0.85,3.09,SPY Sep 04 '24 $563 Call
+8/30/2024,Bought To Cover,OPTN,SPY Aug 30 '24 $563 Call,6,-42.07,0.07,0.07,SPY Aug 30 '24 $563 Call
+8/29/2024,Bought To Cover,OPTN,SPY Aug 30 '24 $565 Call,6,-93.07,0.15,3.07,SPY Aug 30 '24 $565 Call
+8/29/2024,Sold Short,OPTN,SPY Aug 30 '24 $563 Call,-6,248.9,0.42,3.08,SPY Aug 30 '24 $563 Call
+8/29/2024,Sold Short,OPTN,SPY Aug 30 '24 $565 Call,-6,680.89,1.14,3.09,SPY Aug 30 '24 $565 Call
+8/29/2024,Bought To Cover,OPTN,SPY Aug 30 '24 $563 Call,6,-1263.07,2.1,3.07,SPY Aug 30 '24 $563 Call
+8/28/2024,Transfer, , ,0,-3500,0,0,ACH WITHDRAWL  REFID:115784504906;
+8/28/2024,Sold Short,OPTN,SPY Aug 30 '24 $563 Call,-6,950.88,1.59,3.1,SPY Aug 30 '24 $563 Call
+8/28/2024,Bought To Cover,OPTN,SPY Aug 30 '24 $566 Call,6,-501.07,0.83,3.07,SPY Aug 30 '24 $566 Call
+8/28/2024,Bought To Cover,OPTN,SPY Aug 28 '24 $565 Call,6,-363.07,0.6,3.07,SPY Aug 28 '24 $565 Call
+8/28/2024,Sold Short,OPTN,SPY Aug 30 '24 $566 Call,-6,728.88,1.22,3.1,SPY Aug 30 '24 $566 Call
+8/26/2024,Sold Short,OPTN,SPY Aug 28 '24 $565 Call,-6,992.88,1.66,3.1,SPY Aug 28 '24 $565 Call
+8/26/2024,Bought To Cover,OPTN,SPY Aug 27 '24 $567 Call,6,-153.07,0.25,3.07,SPY Aug 27 '24 $567 Call
 8/23/2024,Transfer, , ,0,-1000,0,0,ACH WITHDRAWL  REFID:115374039906;
 8/23/2024,Bought To Cover,OPTN,SPY Aug 26 '24 $562 Call,6,-849.07,1.41,3.07,SPY Aug 26 '24 $562 Call
 8/23/2024,Sold Short,OPTN,SPY Aug 27 '24 $567 Call,-6,158.9,0.27,3.08,SPY Aug 27 '24 $567 Call
@@ -870,4 +926,5 @@ TransactionDate,TransactionType,SecurityType,Symbol,Quantity,Amount,Price,Commis
 11/8/2022,Sold Short,OPTN,SPY Nov 11 '22 $390 Call,-1,259.48,2.6,0.5,SPY Nov 11 '22 $390 Call
 11/8/2022,Bought To Open,OPTN,SPY Jan 19 '24 $350 Call,1,-6962.51,69.62,0.5,SPY Jan 19 '24 $350 Call
 11/8/2022,Sold To Close,OPTN,SPY Dec 15 '23 $340 Call,-1,7461.31,74.62,0.5,SPY Dec 15 '23 $340 Call
-10/18/2022,Bought To Open,OPTN,SPY Dec 15 '23 $340 Call,-1,6686,66.86,0.5,SPY Dec 15 '23 $340 Call
+11/7/2022,Sold Short,OPTN,SPY Nov 11 '22 $383 Call,-1,396,3.96,0.5,SPY Nov 11 '22 $383 Call
+10/18/2022,Bought To Open,OPTN,SPY Dec 15 '23 $340 Call,1,6686,66.86,0.5,SPY Dec 15 '23 $340 Call
