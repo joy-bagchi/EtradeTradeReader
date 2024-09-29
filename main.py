@@ -1,8 +1,5 @@
-import datetime
-
-import pandas as pd
 import numpy as np
-from fontTools.designspaceLib import posix
+import pandas as pd
 from pandas import DataFrame
 
 
@@ -37,13 +34,14 @@ def read_csv(file_path: str) -> pd.DataFrame:
 
     return df
 
+
 def create_symbol_based_dict(df: pd.DataFrame) -> dict:
     # Ensure TransactionDate is in datetime format
     df['TransactionDate'] = pd.to_datetime(df['TransactionDate'], format='%m/%d/%y')
 
     # Initialize an empty dictionary to store the data for each symbol
     symbol_dict = {}
-    df['transaction_types_sortkey']  =  df['TransactionType'].map(
+    df['transaction_types_sortkey'] = df['TransactionType'].map(
         {'Sold Short': 0, 'Bought To Cover': 1, 'Bought To Open': 2, 'Sold To Close': 3}
     )
 
@@ -65,7 +63,6 @@ def create_symbol_based_dict(df: pd.DataFrame) -> dict:
 
 
 def create_trades(symbol_df: dict[str: pd.DataFrame]) -> Exception | None | DataFrame:
-
     results = []
 
     for symbol, positions in symbol_df.items():
@@ -85,8 +82,9 @@ def create_trades(symbol_df: dict[str: pd.DataFrame]) -> Exception | None | Data
             # Iterate through each transaction
 
             for index, position in positions.iterrows():
-                if 'Option Expiration' in position['TransactionType'] :
-                    position['TransactionType'] = 'Sold To Close'  if open_trade['Trade Side'] == 'Long' else 'Bought To Cover'
+                if 'Option Expiration' in position['TransactionType']:
+                    position['TransactionType'] = 'Sold To Close' if open_trade[
+                                                                         'Trade Side'] == 'Long' else 'Bought To Cover'
 
                 transaction_type = position['TransactionType']
                 quantity = position['Quantity']
@@ -105,8 +103,9 @@ def create_trades(symbol_df: dict[str: pd.DataFrame]) -> Exception | None | Data
                             'Entry Price': price,
                         }
                     else:
-                        open_trade['Entry Price'] = ((open_trade['Entry Price']*open_trade['Quantity'] + price*quantity)
-                                                     / (open_trade['Quantity'] + quantity))
+                        open_trade['Entry Price'] = (
+                                (open_trade['Entry Price'] * open_trade['Quantity'] + price * quantity)
+                                / (open_trade['Quantity'] + quantity))
                         open_trade['Quantity'] += quantity
                 elif transaction_type in ['Bought To Cover', 'Sold To Close']:
                     # Closing a trade (either covering a short or selling a long)
@@ -121,32 +120,32 @@ def create_trades(symbol_df: dict[str: pd.DataFrame]) -> Exception | None | Data
                         return Exception('Trade sides dont match')
 
                     if 'Exit Price' in open_trade.keys():
-                        open_trade['Exit Price'] =  ((open_trade['Exit Price']*abs(trade_size - remaining_quantity) + price*abs(quantity))
-                                                     /(abs(trade_size - remaining_quantity) + abs(quantity)) )
+                        open_trade['Exit Price'] = ((open_trade['Exit Price'] * abs(
+                            trade_size - remaining_quantity) + price * abs(quantity))
+                                                    / (abs(trade_size - remaining_quantity) + abs(quantity)))
                     else:
                         open_trade['Exit Price'] = price
 
                     if abs(open_trade['Quantity']) == abs(quantity):
                         remaining_quantity -= quantity
                         # Full close of the open trade
-
                         open_trade['Quantity'] += quantity
                         if open_trade['Quantity'] != 0:
                             print('Error: Trade was not closed properly')
                             return Exception('Trade was not closed properly')
                         # Append to results
-                        pnl = ((open_trade['Entry Price'] - open_trade['Exit Price']) * abs(trade_size)*
+                        pnl = ((open_trade['Entry Price'] - open_trade['Exit Price']) * abs(trade_size) *
                                (100.00 if position['SecurityType'] == 'OPTN' else 1.00))
                         if trade_side == 'Long':
-                             pnl = -pnl  # Long trades are negative PnL
+                            pnl = -pnl  # Long trades are negative PnL
 
-                        pnl_percent = pnl / (open_trade['Entry Price'] * abs(trade_size)*
+                        pnl_percent = pnl / (open_trade['Entry Price'] * abs(trade_size) *
                                              (100.00 if position['SecurityType'] == 'OPTN' else 1.00))
                         results.append({
                             'Symbol': symbol,
                             'OpenDate': open_trade['OpenDate'],
                             'CloseDate': transaction_date,
-                            'Trade Status': ('Win' if pnl > 0 else 'Loss') ,
+                            'Trade Status': ('Win' if pnl > 0 else 'Loss'),
                             'Trade Side': trade_side,
                             'PnL ($)': pnl,
                             'PnL (%)': pnl_percent,
@@ -181,9 +180,10 @@ def create_trades(symbol_df: dict[str: pd.DataFrame]) -> Exception | None | Data
                     'Holding Period': (transaction_date - open_trade['OpenDate']).days
                 })
 
-# Convert results to DataFrame
-    trades_df = pd.DataFrame(results, columns=['Symbol', 'OpenDate', 'CloseDate', 'Trade Status', 'Trade Side', 'PnL ($)',
-                                           'PnL (%)', 'Entry Price', 'Exit Price', 'Trade Size', 'Holding Period'])
+    # Convert results to DataFrame
+    trades_df = pd.DataFrame(results,
+                             columns=['Symbol', 'OpenDate', 'CloseDate', 'Trade Status', 'Trade Side', 'PnL ($)',
+                                      'PnL (%)', 'Entry Price', 'Exit Price', 'Trade Size', 'Holding Period'])
     return trades_df
 
 
@@ -195,7 +195,7 @@ if __name__ == '__main__':
     symbol_based_df = create_symbol_based_dict(transactions)
     print(len(symbol_based_df))
     _trades = create_trades(symbol_based_df)
-    if type(_trades) is not Exception and type(_trades) is not None :
+    if type(_trades) is not Exception and type(_trades) is not None:
         print(_trades.head())
         _trades.to_csv('data/portfolio_trades.csv', header=True, index=False)
     if type(_trades) is Exception:

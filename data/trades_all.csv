@@ -3,6 +3,22 @@ For Account:,#####6267,,,,,,,
 ,,,,,,,,
 TransactionDate,TransactionType,SecurityType,Symbol,Quantity,Amount,Price,Commission,Description
 ,,,,,,,,
+9/27/2024,Sold Short,OPTN,SPY Sep 30 '24 $574 Call,-5,467.41,0.94,2.58,SPY Sep 30 '24 $574 Call
+9/27/2024,Bought To Cover,OPTN,SPY Sep 27 '24 $574 Call,5,-67.56,0.13,2.56,SPY Sep 27 '24 $574 Call
+9/26/2024,Sold Short,OPTN,SPY Sep 27 '24 $574 Call,-5,302.42,0.61,2.57,SPY Sep 27 '24 $574 Call
+9/26/2024,Bought To Cover,OPTN,SPY Sep 26 '24 $573 Call,5,-102.56,0.2,2.56,SPY Sep 26 '24 $573 Call
+9/25/2024,Bought To Cover,OPTN,SPY Sep 25 '24 $573 Call,5,-72.56,0.14,2.56,SPY Sep 25 '24 $573 Call
+9/25/2024,Sold Short,OPTN,SPY Sep 26 '24 $573 Call,-5,312.42,0.63,2.57,SPY Sep 26 '24 $573 Call
+9/25/2024,Bought To Open,OPTN,SPY Dec 19 '25 $535 Call,3,-23734.53,79.11,1.53,SPY Dec 19 '25 $535 Call
+9/25/2024,Bought To Open,OPTN,SPY Dec 19 '25 $535 Call,2,-15825.02,79.12,1.02,SPY Dec 19 '25 $535 Call
+9/25/2024,Sold To Close,OPTN,SPY Sep 19 '25 $530 Call,-6,45955.63,76.6,4.35,SPY Sep 19 '25 $530 Call
+9/23/2024,Transfer, , ,0,-1000,0,0,ACH WITHDRAWL  REFID:117709931906;
+9/23/2024,Sold Short,OPTN,SPY Sep 25 '24 $573 Call,-1,48.48,0.49,0.52,SPY Sep 25 '24 $573 Call
+9/23/2024,Sold Short,OPTN,SPY Sep 25 '24 $573 Call,-4,205.93,0.52,2.06,SPY Sep 25 '24 $573 Call
+9/20/2024,Interest,MMF,CBP,-0.04,0.04,0,0,CASH BALANCE PROGRAM (Period 09/01-09/19)
+9/19/2024,Bought To Cover,OPTN,SPY Sep 19 '24 $567 Call,6,-2103.07,3.5,3.07,SPY Sep 19 '24 $567 Call
+9/18/2024,Sold Short,OPTN,SPY Sep 19 '24 $567 Call,-6,752.88,1.26,3.1,SPY Sep 19 '24 $567 Call
+9/18/2024,Bought To Cover,OPTN,SPY Sep 18 '24 $566 Call,6,-297.07,0.49,3.07,SPY Sep 18 '24 $566 Call
 9/17/2024,Transfer, , ,0,-3000,0,0,ACH WITHDRAWL  REFID:117266777906;
 9/17/2024,Sold Short,OPTN,SPY Sep 18 '24 $566 Call,-6,926.88,1.55,3.1,SPY Sep 18 '24 $566 Call
 9/17/2024,Bought To Cover,OPTN,SPY Sep 18 '24 $571 Call,6,-249.07,0.41,3.07,SPY Sep 18 '24 $571 Call
