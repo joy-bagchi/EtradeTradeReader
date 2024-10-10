@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="DataScience" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="scientificProject" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="options_trading_thetadata" project-jdk-type="Python SDK" />
 </project>

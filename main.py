@@ -74,8 +74,6 @@ def create_trades(symbol_df: dict[str: pd.DataFrame]) -> Exception | None | Data
         trade_size = 0
         remaining_quantity = 0
 
-        if symbol == "SPY Jul 19 '24 $560 Call":
-            print('debug')
 
         # Only process trades for SPY
         if 'SPY' in symbol:
@@ -201,4 +199,4 @@ if __name__ == '__main__':
     if type(_trades) is Exception:
         print(str(_trades))
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    # See PyCharm help at https://www.jetbrains.com/help/pycharm/
